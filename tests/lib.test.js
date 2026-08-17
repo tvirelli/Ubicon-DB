@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import { CATEGORIES, validateDevice, pngInfo, validateRepo } from '../scripts/lib.js';
+import { CATEGORIES, validateDevice, pngInfo, validateRepo, buildIndex } from '../scripts/lib.js';
 
 const good = () => ({
   id: 'lockly-smart-lock', name: 'Lockly Smart Lock', vendor: 'Lockly',
@@ -68,4 +68,25 @@ test('validateRepo flags orphan icons', () => {
   fs.writeFileSync(path.join(dir, 'icons', 'orphan.png'), PNG_1x1);
   const res = validateRepo(dir);
   assert.ok(res.errors.some(e => e.includes('orphan.png')));
+});
+
+test('buildIndex throws when repo invalid', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ubdb-'));
+  fs.mkdirSync(path.join(dir, 'devices'));
+  fs.mkdirSync(path.join(dir, 'icons'));
+  fs.writeFileSync(path.join(dir, 'devices', 'lockly.json'), JSON.stringify([good()]));
+  assert.throws(() => buildIndex(dir));
+});
+
+test('buildIndex sorts by id and stamps metadata', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ubdb-'));
+  fs.mkdirSync(path.join(dir, 'devices'));
+  const a = { ...good(), id: 'zz-last', icon: 'icons/zz-last.png' };
+  const b = { ...good(), id: 'aa-first', icon: 'icons/aa-first.png' };
+  fs.writeFileSync(path.join(dir, 'devices', 'x.json'), JSON.stringify([a, b]));
+  const idx = buildIndex(dir, { skipIconChecks: true });
+  assert.equal(idx.schema, 1);
+  assert.equal(idx.count, 2);
+  assert.deepEqual(idx.devices.map(d => d.id), ['aa-first', 'zz-last']);
+  assert.ok(idx.generatedAt.includes('T'));
 });

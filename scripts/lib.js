@@ -75,3 +75,11 @@ export function validateRepo(rootDir) {
   }
   return { errors, devices };
 }
+
+export function buildIndex(rootDir, opts = {}) {
+  const { errors, devices } = validateRepo(rootDir);
+  const blocking = opts.skipIconChecks ? errors.filter(e => !e.startsWith('icons/')) : errors;
+  if (blocking.length) throw new Error('repo invalid:\n' + blocking.join('\n'));
+  devices.sort((a, b) => a.id.localeCompare(b.id));
+  return { schema: 1, generatedAt: new Date().toISOString(), count: devices.length, devices };
+}
