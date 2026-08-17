@@ -10,10 +10,11 @@ export const CATEGORIES = [
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const MAX_ICON_BYTES = 51200;
-const ALLOWED = new Set(['id', 'name', 'vendor', 'model', 'category', 'keywords', 'icon']);
+const ALLOWED = new Set(['id', 'name', 'vendor', 'model', 'category', 'keywords', 'icon', 'contributor']);
 const MAX_FIELD_LEN = 80;
 const MAX_KEYWORDS = 20;
 const MAX_KEYWORD_LEN = 40;
+const MAX_CONTRIBUTOR_LEN = 60;
 
 export function validateDevice(d, seenIds) {
   const errs = [];
@@ -40,6 +41,13 @@ export function validateDevice(d, seenIds) {
     errs.push(`${where}: icon must be "icons/<slug>.png"`);
   } else if (d.id && d.icon !== `icons/${d.id}.png`) {
     errs.push(`${where}: icon filename must match the device id`);
+  }
+  if ('contributor' in d) {
+    if (typeof d.contributor !== 'string' || !d.contributor.trim()) {
+      errs.push(`${where}: "contributor" must be a non-empty string`);
+    } else if (d.contributor.length > MAX_CONTRIBUTOR_LEN) {
+      errs.push(`${where}: "contributor" exceeds ${MAX_CONTRIBUTOR_LEN} characters`);
+    }
   }
   return errs;
 }

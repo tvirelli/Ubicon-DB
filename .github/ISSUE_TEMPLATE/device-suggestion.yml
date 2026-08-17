@@ -72,7 +72,18 @@ body:
       label: Icon
       description: >-
         Please attach a 128×128 transparent PNG or a square SVG icon for this
-        device to this issue (drag and drop the file into this box).
+        device to this issue (drag and drop the file into this box). For real
+        products, a product photo on a transparent background is preferred
+        (matching UniFi's own icon style). Illustrations are fine for
+        custom or general-use device entries.
+    validations:
+      required: false
+  - type: input
+    id: credit_name
+    attributes:
+      label: Contributor credit
+      description: Name for contributor credit (optional)
+      placeholder: "Jane Doe"
     validations:
       required: false
   - type: checkboxes

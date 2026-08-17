@@ -11,6 +11,7 @@
     "model": { "type": "string", "minLength": 1 },
     "category": { "type": "string", "enum": ["camera", "doorbell", "smart_lock", "smart_plug", "light", "sensor", "thermostat", "hvac", "speaker", "av", "tv", "game_console", "computer", "phone", "tablet", "printer", "3d_printer", "nas", "network", "appliance", "energy", "vehicle", "iot_hub", "wearable", "other"] },
     "keywords": { "type": "array", "items": { "type": "string" } },
-    "icon": { "type": "string", "pattern": "^icons/[a-z0-9-]+\\.png$" }
+    "icon": { "type": "string", "pattern": "^icons/[a-z0-9-]+\\.png$" },
+    "contributor": { "type": "string", "maxLength": 60, "description": "Credit for who contributed this entry" }
   }
 }

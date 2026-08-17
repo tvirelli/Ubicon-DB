@@ -69,6 +69,15 @@ test('too many or overlong keywords are rejected', () => {
   assert.ok(tooLong.some(e => e.includes('keyword') && e.includes('40')));
 });
 
+test('valid device with contributor passes', () => {
+  assert.deepEqual(validateDevice({ ...good(), contributor: 'Jane Doe' }, new Set()), []);
+});
+
+test('overlong contributor is rejected', () => {
+  const errs = validateDevice({ ...good(), contributor: 'x'.repeat(61) }, new Set());
+  assert.ok(errs.some(e => e.includes('contributor') && e.includes('60')));
+});
+
 // 1x1 red PNG, 67 bytes
 const PNG_1x1 = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/q842iQAAAABJRU5ErkJggg==',
@@ -149,5 +158,15 @@ test('buildIndex output devices contain only whitelisted keys', () => {
     const idx = buildIndex(dir, { skipIconChecks: true });
     const ALLOWED = ['id', 'name', 'vendor', 'model', 'category', 'keywords', 'icon'];
     assert.deepEqual(Object.keys(idx.devices[0]).sort(), ALLOWED.slice().sort());
+  });
+});
+
+test('buildIndex output includes contributor when present', () => {
+  withTempDir(dir => {
+    fs.mkdirSync(path.join(dir, 'devices'));
+    fs.writeFileSync(path.join(dir, 'devices', 'x.json'),
+      JSON.stringify([{ ...good(), contributor: 'Jane Doe' }]));
+    const idx = buildIndex(dir, { skipIconChecks: true });
+    assert.equal(idx.devices[0].contributor, 'Jane Doe');
   });
 });

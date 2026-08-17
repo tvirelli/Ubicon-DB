@@ -6,6 +6,7 @@
   "model": "PGD728F Secure Plus",
   "category": "smart_lock",
   "keywords": ["deadbolt", "door lock", "keypad lock"],
-  "icon": "icons/lockly-smart-lock.png"
+  "icon": "icons/lockly-smart-lock.png",
+  "contributor": "Tony Virelli"
  }
 ]
