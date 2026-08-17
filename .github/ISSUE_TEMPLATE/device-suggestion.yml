@@ -1,0 +1,84 @@
+name: Device suggestion
+description: Suggest a device to add to the Ubicon device database
+labels: ["device-suggestion"]
+body:
+  - type: input
+    id: device_name
+    attributes:
+      label: Device name
+      description: The friendly display name of the device
+      placeholder: "Acme Doorbell Pro"
+    validations:
+      required: true
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      description: The manufacturer or brand name
+      placeholder: "Acme"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: The model name or number
+      placeholder: "DB-100"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best fits this device?
+      options:
+        - camera
+        - doorbell
+        - smart_lock
+        - smart_plug
+        - light
+        - sensor
+        - thermostat
+        - hvac
+        - speaker
+        - av
+        - tv
+        - game_console
+        - computer
+        - phone
+        - tablet
+        - printer
+        - 3d_printer
+        - nas
+        - network
+        - appliance
+        - energy
+        - vehicle
+        - iot_hub
+        - wearable
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else worth knowing (keywords, distinguishing details, etc.)
+    validations:
+      required: false
+  - type: textarea
+    id: icon
+    attributes:
+      label: Icon
+      description: >-
+        Please attach a 128×128 transparent PNG or a square SVG icon for this
+        device to this issue (drag and drop the file into this box).
+    validations:
+      required: false
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License confirmation
+      options:
+        - label: I have the right to contribute the attached image and license it under CC0
+          required: true

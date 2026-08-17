@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Keypad deadbolt, flat two-tone style -->
+  <rect x="44" y="10" width="40" height="108" rx="14" fill="#7C8698"/>
+  <rect x="49" y="15" width="30" height="98" rx="10" fill="#8E97A8"/>
+  <!-- Keypad dots (3 x 4) -->
+  <g fill="#D1D5DB">
+    <circle cx="56" cy="30" r="3.4"/><circle cx="64" cy="30" r="3.4"/><circle cx="72" cy="30" r="3.4"/>
+    <circle cx="56" cy="42" r="3.4"/><circle cx="64" cy="42" r="3.4"/><circle cx="72" cy="42" r="3.4"/>
+    <circle cx="56" cy="54" r="3.4"/><circle cx="64" cy="54" r="3.4"/><circle cx="72" cy="54" r="3.4"/>
+    <circle cx="56" cy="66" r="3.4"/><circle cx="64" cy="66" r="3.4"/><circle cx="72" cy="66" r="3.4"/>
+  </g>
+  <!-- Keyway -->
+  <circle cx="64" cy="94" r="10" fill="#2B3040"/>
+  <circle cx="64" cy="91" r="3.2" fill="#9CA3AF"/>
+  <rect x="62.4" y="91" width="3.2" height="9" rx="1.6" fill="#9CA3AF"/>
+</svg>

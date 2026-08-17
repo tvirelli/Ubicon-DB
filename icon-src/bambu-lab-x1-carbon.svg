@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Enclosed 3D printer, flat two-tone style -->
+  <rect x="14" y="16" width="100" height="96" rx="10" fill="#7C8698"/>
+  <rect x="14" y="16" width="100" height="16" rx="8" fill="#8E97A8"/>
+  <circle cx="24" cy="24" r="3" fill="#9CA3AF"/>
+  <!-- Front window -->
+  <rect x="26" y="42" width="76" height="58" rx="6" fill="#2B3040"/>
+  <!-- Gantry + nozzle -->
+  <rect x="30" y="48" width="68" height="5" rx="2.5" fill="#6B7280"/>
+  <rect x="59" y="53" width="10" height="10" rx="2" fill="#9CA3AF"/>
+  <path d="M61 63 h6 l-3 6 z" fill="#D1D5DB"/>
+  <!-- Print bed and printed part -->
+  <rect x="34" y="88" width="60" height="5" rx="2.5" fill="#6B7280"/>
+  <rect x="56" y="76" width="16" height="12" rx="2" fill="#D97706"/>
+</svg>

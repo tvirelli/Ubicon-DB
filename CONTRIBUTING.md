@@ -22,10 +22,17 @@ Five minutes, three steps:
 
 2. **Add the icon**: `icons/<id>.png`, exactly 128×128, transparent
    background, 50 KB max. Flat/line-art style preferred over photos.
+   Icons must stay legible on both white and near-black backgrounds — use
+   mid-tone fills or light outlines rather than near-black silhouettes.
    Have an SVG? `node tools/svg2icon.mjs your.svg icons/<id>.png`
-   (run `npm install` inside `tools/` first).
+   (run `npm install` inside `tools/` first). Your SVG must have a square
+   viewBox.
 
-3. **Open a pull request.** Automated checks cover everything mechanical; review is only
+3. **Before opening a pull request**, run `npm test && npm run validate`
+   locally and make sure both pass. Do not edit `index.json` — it is
+   regenerated automatically on merge.
+
+4. **Open a pull request.** Automated checks cover everything mechanical; review is only
    about icon quality and appropriateness.
 
 By submitting, you confirm you have the right to contribute the image and

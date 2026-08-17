@@ -10,20 +10,31 @@ export const CATEGORIES = [
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const MAX_ICON_BYTES = 51200;
+const ALLOWED = new Set(['id', 'name', 'vendor', 'model', 'category', 'keywords', 'icon']);
+const MAX_FIELD_LEN = 80;
+const MAX_KEYWORDS = 20;
+const MAX_KEYWORD_LEN = 40;
 
 export function validateDevice(d, seenIds) {
   const errs = [];
   const where = d && d.id ? `device "${d.id}"` : 'device (no id)';
   if (!d || typeof d !== 'object') return ['record is not an object'];
+  for (const k of Object.keys(d)) {
+    if (!ALLOWED.has(k)) errs.push(`${where}: unknown property "${k}"`);
+  }
   if (typeof d.id !== 'string' || !SLUG.test(d.id)) errs.push(`${where}: id must match ${SLUG}`);
   else if (seenIds.has(d.id)) errs.push(`${where}: duplicate id`);
   else seenIds.add(d.id);
   for (const f of ['name', 'vendor', 'model']) {
     if (typeof d[f] !== 'string' || !d[f].trim()) errs.push(`${where}: missing/empty "${f}"`);
+    else if (d[f].length > MAX_FIELD_LEN) errs.push(`${where}: "${f}" exceeds ${MAX_FIELD_LEN} characters`);
   }
   if (!CATEGORIES.includes(d.category)) errs.push(`${where}: category must be one of the schema enum`);
   if (!Array.isArray(d.keywords) || d.keywords.some(k => typeof k !== 'string')) {
     errs.push(`${where}: keywords must be an array of strings`);
+  } else {
+    if (d.keywords.length > MAX_KEYWORDS) errs.push(`${where}: keywords exceeds ${MAX_KEYWORDS} items`);
+    if (d.keywords.some(k => k.length > MAX_KEYWORD_LEN)) errs.push(`${where}: a keyword exceeds ${MAX_KEYWORD_LEN} characters`);
   }
   if (typeof d.icon !== 'string' || !/^icons\/[a-z0-9-]+\.png$/.test(d.icon)) {
     errs.push(`${where}: icon must be "icons/<slug>.png"`);
@@ -80,6 +91,11 @@ export function buildIndex(rootDir, opts = {}) {
   const { errors, devices } = validateRepo(rootDir);
   const blocking = opts.skipIconChecks ? errors.filter(e => !e.startsWith('icons/')) : errors;
   if (blocking.length) throw new Error('repo invalid:\n' + blocking.join('\n'));
-  devices.sort((a, b) => a.id.localeCompare(b.id));
-  return { schema: 1, generatedAt: new Date().toISOString(), count: devices.length, devices };
+  const projected = devices.map(d => {
+    const out = {};
+    for (const k of ALLOWED) if (k in d) out[k] = d[k];
+    return out;
+  });
+  projected.sort((a, b) => a.id.localeCompare(b.id));
+  return { schema: 1, generatedAt: new Date().toISOString(), count: projected.length, devices: projected };
 }
