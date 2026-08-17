@@ -1,0 +1,11 @@
+[
+ {
+  "id": "lockly-smart-lock",
+  "name": "Lockly Smart Lock",
+  "vendor": "Lockly",
+  "model": "PGD728F Secure Plus",
+  "category": "smart_lock",
+  "keywords": ["deadbolt", "door lock", "keypad lock"],
+  "icon": "icons/lockly-smart-lock.png"
+ }
+]

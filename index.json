@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "generatedAt": "2026-08-17T16:11:05.741Z",
+ "count": 2,
+ "devices": [
+  {
+   "id": "bambu-lab-x1-carbon",
+   "name": "Bambu Lab X1 Carbon",
+   "vendor": "Bambu Lab",
+   "model": "X1 Carbon",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "x1c"
+   ],
+   "icon": "icons/bambu-lab-x1-carbon.png"
+  },
+  {
+   "id": "lockly-smart-lock",
+   "name": "Lockly Smart Lock",
+   "vendor": "Lockly",
+   "model": "PGD728F Secure Plus",
+   "category": "smart_lock",
+   "keywords": [
+    "deadbolt",
+    "door lock",
+    "keypad lock"
+   ],
+   "icon": "icons/lockly-smart-lock.png"
+  }
+ ]
+}

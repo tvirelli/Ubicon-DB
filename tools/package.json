@@ -1,0 +1,2 @@
+{ "name": "ubicon-db-tools", "private": true, "type": "module",
+  "dependencies": { "@resvg/resvg-js": "^2.6.0" } }

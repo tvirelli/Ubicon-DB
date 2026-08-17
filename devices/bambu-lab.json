@@ -1,0 +1,11 @@
+[
+ {
+  "id": "bambu-lab-x1-carbon",
+  "name": "Bambu Lab X1 Carbon",
+  "vendor": "Bambu Lab",
+  "model": "X1 Carbon",
+  "category": "3d_printer",
+  "keywords": ["3d printer", "x1c"],
+  "icon": "icons/bambu-lab-x1-carbon.png"
+ }
+]
