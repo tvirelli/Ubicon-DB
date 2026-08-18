@@ -91,5 +91,5 @@ body:
     attributes:
       label: License confirmation
       options:
-        - label: I have the right to contribute the attached image and license it under CC0
+        - label: I have the right to contribute the attached image and license it under the MIT license
           required: true

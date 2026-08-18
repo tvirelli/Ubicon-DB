@@ -41,7 +41,7 @@ Five minutes, four steps:
    about icon quality and appropriateness.
 
 By submitting, you confirm you have the right to contribute the image and
-license it under this repo's license (CC0). Product names and likenesses
-remain the property of their owners. You must have the right to submit the
-image under CC0 — your own photo of the device is the safest choice; do not
-upload images you found online unless you know they are freely licensed.
+license it under this repo's MIT license. Product names and likenesses
+remain the property of their owners. Your own photo of the device is the
+safest choice; do not upload images you found online unless you know they
+are freely licensed.
