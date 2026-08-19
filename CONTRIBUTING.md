@@ -40,8 +40,8 @@ Five minutes, four steps:
 4. **Open a pull request.** Automated checks cover everything mechanical; review is only
    about icon quality and appropriateness.
 
-By submitting, you confirm you have the right to contribute the image and
-license it under this repo's MIT license. Product names and likenesses
-remain the property of their owners. Your own photo of the device is the
-safest choice; do not upload images you found online unless you know they
-are freely licensed.
+By submitting, you confirm the image is your own, freely licensed, or a
+low-resolution manufacturer product photo used solely to identify the device.
+Ubicon-DB serves small 128×128 identification thumbnails — the same footing
+UniFi's own device icons stand on. Product names and likenesses remain the
+property of their owners.

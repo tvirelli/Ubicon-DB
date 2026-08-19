@@ -91,5 +91,5 @@ body:
     attributes:
       label: License confirmation
       options:
-        - label: I have the right to contribute the attached image and license it under the MIT license
+        - label: The icon is my own image, freely licensed, or a low-resolution manufacturer product photo used for device identification
           required: true
