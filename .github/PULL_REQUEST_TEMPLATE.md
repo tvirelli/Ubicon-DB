@@ -1,6 +1,6 @@
 ## Device(s) added
 
-<!-- one line per device: name — model -->
+<!-- one line per device: name - model -->
 
 ## Checklist
 

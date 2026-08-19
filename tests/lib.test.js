@@ -144,7 +144,7 @@ test('buildIndex output devices contain only whitelisted keys', () => {
   withTempDir(dir => {
     fs.mkdirSync(path.join(dir, 'devices'));
     // A device with an unknown property never survives validation, so it can
-    // never reach buildIndex's output — confirm that directly...
+    // never reach buildIndex's output; confirm that directly...
     fs.writeFileSync(path.join(dir, 'devices', 'x.json'), JSON.stringify([{ ...good(), extra: 'nope' }]));
     assert.throws(() => buildIndex(dir, { skipIconChecks: true }), /unknown property/);
   });

@@ -34,5 +34,5 @@ jobs:
             git pull --rebase origin main
             git push
           else
-            echo "index.json unchanged (ignoring generatedAt) — nothing to commit."
+            echo "index.json unchanged (ignoring generatedAt); nothing to commit."
           fi
