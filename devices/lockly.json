@@ -1,12 +1,17 @@
 [
  {
-  "id": "lockly-smart-lock",
-  "name": "Lockly Smart Lock",
+  "id": "lockly-secure-pro",
+  "name": "Lockly Secure Pro",
   "vendor": "Lockly",
-  "model": "PGD728F Secure Plus",
+  "model": "PGD728WSNE1",
   "category": "smart_lock",
-  "keywords": ["deadbolt", "door lock", "keypad lock"],
-  "icon": "icons/lockly-smart-lock.png",
+  "keywords": [
+   "deadbolt",
+   "door lock",
+   "keypad lock",
+   "fingerprint"
+  ],
+  "icon": "icons/lockly-secure-pro.png",
   "contributor": "Tony Virelli"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generatedAt": "2026-08-20T15:59:02.978Z",
- "count": 65,
+ "generatedAt": "2026-08-20T16:04:06.020Z",
+ "count": 64,
  "devices": [
   {
    "id": "allen-bradley-compactlogix-5380",
@@ -127,19 +127,6 @@
     "h2d"
    ],
    "icon": "icons/bambu-lab-h2d.png",
-   "contributor": "Tony Virelli"
-  },
-  {
-   "id": "bambu-lab-x1-carbon",
-   "name": "Bambu Lab X1 Carbon",
-   "vendor": "Bambu Lab",
-   "model": "X1 Carbon",
-   "category": "3d_printer",
-   "keywords": [
-    "3d printer",
-    "x1c"
-   ],
-   "icon": "icons/bambu-lab-x1-carbon.png",
    "contributor": "Tony Virelli"
   },
   {
@@ -550,17 +537,18 @@
    "contributor": "Tony Virelli"
   },
   {
-   "id": "lockly-smart-lock",
-   "name": "Lockly Smart Lock",
+   "id": "lockly-secure-pro",
+   "name": "Lockly Secure Pro",
    "vendor": "Lockly",
-   "model": "PGD728F Secure Plus",
+   "model": "PGD728WSNE1",
    "category": "smart_lock",
    "keywords": [
     "deadbolt",
     "door lock",
-    "keypad lock"
+    "keypad lock",
+    "fingerprint"
    ],
-   "icon": "icons/lockly-smart-lock.png",
+   "icon": "icons/lockly-secure-pro.png",
    "contributor": "Tony Virelli"
   },
   {
