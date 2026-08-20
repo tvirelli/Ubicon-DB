@@ -10,7 +10,7 @@ export const CATEGORIES = [
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const MAX_ICON_BYTES = 51200;
-const ALLOWED = new Set(['id', 'name', 'vendor', 'model', 'category', 'keywords', 'icon', 'contributor']);
+const ALLOWED = new Set(['id', 'name', 'type', 'vendor', 'model', 'category', 'keywords', 'icon', 'contributor']);
 const MAX_FIELD_LEN = 80;
 const MAX_KEYWORDS = 20;
 const MAX_KEYWORD_LEN = 40;
@@ -26,10 +26,16 @@ export function validateDevice(d, seenIds) {
   if (typeof d.id !== 'string' || !SLUG.test(d.id)) errs.push(`${where}: id must match ${SLUG}`);
   else if (seenIds.has(d.id)) errs.push(`${where}: duplicate id`);
   else seenIds.add(d.id);
-  for (const f of ['name', 'vendor', 'model']) {
-    if (typeof d[f] !== 'string' || !d[f].trim()) errs.push(`${where}: missing/empty "${f}"`);
+  if (typeof d.name !== 'string' || !d.name.trim()) errs.push(`${where}: missing/empty "name"`);
+  else if (d.name.length > MAX_FIELD_LEN) errs.push(`${where}: "name" exceeds ${MAX_FIELD_LEN} characters`);
+  // vendor/model are required for real devices but omitted for generic ones;
+  // validate them only when present.
+  for (const f of ['vendor', 'model']) {
+    if (!(f in d)) continue;
+    if (typeof d[f] !== 'string' || !d[f].trim()) errs.push(`${where}: "${f}" must be a non-empty string when present`);
     else if (d[f].length > MAX_FIELD_LEN) errs.push(`${where}: "${f}" exceeds ${MAX_FIELD_LEN} characters`);
   }
+  if ('type' in d && d.type !== 'real' && d.type !== 'generic') errs.push(`${where}: type must be "real" or "generic"`);
   if (!CATEGORIES.includes(d.category)) errs.push(`${where}: category must be one of the schema enum`);
   if (!Array.isArray(d.keywords) || d.keywords.some(k => typeof k !== 'string')) {
     errs.push(`${where}: keywords must be an array of strings`);

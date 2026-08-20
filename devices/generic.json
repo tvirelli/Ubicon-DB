@@ -1,0 +1,1748 @@
+[
+ {
+  "id": "all-in-one-computer",
+  "name": "All In One Computer",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "all",
+   "in",
+   "one",
+   "computer"
+  ],
+  "icon": "icons/all-in-one-computer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "building-automation-controller",
+  "name": "Building Automation Controller",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "building",
+   "automation",
+   "controller"
+  ],
+  "icon": "icons/building-automation-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "bullet-ip-camera",
+  "name": "Bullet IP Camera",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "bullet",
+   "ip",
+   "camera"
+  ],
+  "icon": "icons/bullet-ip-camera.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "cellular-gateway-hotspot",
+  "name": "Cellular Gateway Hotspot",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "cellular",
+   "gateway",
+   "hotspot"
+  ],
+  "icon": "icons/cellular-gateway-hotspot.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "conference-room-controller",
+  "name": "Conference Room Controller",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "conference",
+   "room",
+   "controller"
+  ],
+  "icon": "icons/conference-room-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "desktop-pc",
+  "name": "Desktop PC",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "desktop",
+   "pc"
+  ],
+  "icon": "icons/desktop-pc.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "digital-signage-player",
+  "name": "Digital Signage Player",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "digital",
+   "signage",
+   "player"
+  ],
+  "icon": "icons/digital-signage-player.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "digital-video-recorder-dvr",
+  "name": "Digital Video Recorder (DVR)",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "digital",
+   "video",
+   "recorder",
+   "dvr"
+  ],
+  "icon": "icons/digital-video-recorder-dvr.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "dome-ip-camera",
+  "name": "Dome IP Camera",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "dome",
+   "ip",
+   "camera"
+  ],
+  "icon": "icons/dome-ip-camera.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "e-reader",
+  "name": "E-Reader",
+  "type": "generic",
+  "category": "tablet",
+  "keywords": [
+   "generic",
+   "reader"
+  ],
+  "icon": "icons/e-reader.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "firewall",
+  "name": "Firewall",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "firewall"
+  ],
+  "icon": "icons/firewall.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "game-console",
+  "name": "Game Console",
+  "type": "generic",
+  "category": "game_console",
+  "keywords": [
+   "generic",
+   "game",
+   "console"
+  ],
+  "icon": "icons/game-console.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-computer",
+  "name": "Generic Computer",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "computer"
+  ],
+  "icon": "icons/generic-computer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-embedded-device",
+  "name": "Generic Embedded Device",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "embedded",
+   "device"
+  ],
+  "icon": "icons/generic-embedded-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-embedded-linux-device",
+  "name": "Generic Embedded Linux Device",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "embedded",
+   "linux",
+   "device"
+  ],
+  "icon": "icons/generic-embedded-linux-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-iot-device-unknown",
+  "name": "Generic IoT Device (Unknown)",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "iot",
+   "device",
+   "unknown"
+  ],
+  "icon": "icons/generic-iot-device-unknown.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-iot-device",
+  "name": "Generic IoT Device",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "iot",
+   "device"
+  ],
+  "icon": "icons/generic-iot-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-ip-security-camera",
+  "name": "Generic IP Security Camera",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "ip",
+   "security",
+   "camera"
+  ],
+  "icon": "icons/generic-ip-security-camera.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-media-device",
+  "name": "Generic Media Device",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "media",
+   "device"
+  ],
+  "icon": "icons/generic-media-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-mobile-device",
+  "name": "Generic Mobile Device",
+  "type": "generic",
+  "category": "phone",
+  "keywords": [
+   "generic",
+   "mobile",
+   "device"
+  ],
+  "icon": "icons/generic-mobile-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-network-appliance",
+  "name": "Generic Network Appliance",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "appliance"
+  ],
+  "icon": "icons/generic-network-appliance.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-network-household-appliance",
+  "name": "Generic Household Appliance",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "household",
+   "appliance"
+  ],
+  "icon": "icons/generic-network-household-appliance.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-network-microcontroller-esp-device",
+  "name": "Microcontroller (ESP)",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "microcontroller",
+   "esp",
+   "device"
+  ],
+  "icon": "icons/generic-network-microcontroller-esp-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-network-storage-device",
+  "name": "Generic Network Storage Device",
+  "type": "generic",
+  "category": "nas",
+  "keywords": [
+   "generic",
+   "storage",
+   "device"
+  ],
+  "icon": "icons/generic-network-storage-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-security-device",
+  "name": "Generic Security Device",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "security",
+   "device"
+  ],
+  "icon": "icons/generic-security-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "generic-server",
+  "name": "Generic Server",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "server"
+  ],
+  "icon": "icons/generic-server.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "home-automation-controller",
+  "name": "Home Automation Controller",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "home",
+   "automation",
+   "controller"
+  ],
+  "icon": "icons/home-automation-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "industrial-network-controller",
+  "name": "Industrial Network Controller",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "industrial",
+   "controller"
+  ],
+  "icon": "icons/industrial-network-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "ip-kvm",
+  "name": "IP KVM",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "ip",
+   "kvm"
+  ],
+  "icon": "icons/ip-kvm.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "laptop",
+  "name": "Laptop",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "laptop"
+  ],
+  "icon": "icons/laptop.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "managed-ethernet-switch",
+  "name": "Managed Ethernet Switch",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "managed",
+   "ethernet",
+   "switch"
+  ],
+  "icon": "icons/managed-ethernet-switch.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "managed-fiber-media-converter",
+  "name": "Managed Fiber Media Converter",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "managed",
+   "fiber",
+   "media",
+   "converter"
+  ],
+  "icon": "icons/managed-fiber-media-converter.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "managed-poe-switch",
+  "name": "Managed PoE Switch",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "managed",
+   "poe",
+   "switch"
+  ],
+  "icon": "icons/managed-poe-switch.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "mini-pc",
+  "name": "Mini PC",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "mini",
+   "pc"
+  ],
+  "icon": "icons/mini-pc.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "nas",
+  "name": "NAS",
+  "type": "generic",
+  "category": "nas",
+  "keywords": [
+   "generic",
+   "nas"
+  ],
+  "icon": "icons/nas.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-3d-printer",
+  "name": "Network 3D Printer",
+  "type": "generic",
+  "category": "3d_printer",
+  "keywords": [
+   "generic",
+   "3d",
+   "printer"
+  ],
+  "icon": "icons/network-3d-printer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-access-control-controller",
+  "name": "Network Access Control Controller",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "access",
+   "control",
+   "controller"
+  ],
+  "icon": "icons/network-access-control-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-air-quality-monitor",
+  "name": "Network Air Quality Monitor",
+  "type": "generic",
+  "category": "sensor",
+  "keywords": [
+   "generic",
+   "air",
+   "quality",
+   "monitor"
+  ],
+  "icon": "icons/network-air-quality-monitor.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-alarm-panel",
+  "name": "Network Alarm Panel",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "alarm",
+   "panel"
+  ],
+  "icon": "icons/network-alarm-panel.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-av-receiver",
+  "name": "Network AV Receiver",
+  "type": "generic",
+  "category": "speaker",
+  "keywords": [
+   "generic",
+   "av",
+   "receiver"
+  ],
+  "icon": "icons/network-av-receiver.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-battery-energy-storage-system",
+  "name": "Network Battery Energy Storage System",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "battery",
+   "energy",
+   "storage",
+   "system"
+  ],
+  "icon": "icons/network-battery-energy-storage-system.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-bridge",
+  "name": "Network Bridge",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "bridge"
+  ],
+  "icon": "icons/network-bridge.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-cnc-machine",
+  "name": "Network CNC Machine",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "cnc",
+   "machine"
+  ],
+  "icon": "icons/network-cnc-machine.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-connected-automobile",
+  "name": "Network Connected Automobile",
+  "type": "generic",
+  "category": "vehicle",
+  "keywords": [
+   "generic",
+   "automobile"
+  ],
+  "icon": "icons/network-connected-automobile.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-connected-electric-vehicle",
+  "name": "Network Connected Electric Vehicle",
+  "type": "generic",
+  "category": "vehicle",
+  "keywords": [
+   "generic",
+   "electric",
+   "vehicle"
+  ],
+  "icon": "icons/network-connected-electric-vehicle.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-controller-appliance",
+  "name": "Network Controller Appliance",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "controller",
+   "appliance"
+  ],
+  "icon": "icons/network-controller-appliance.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-development-board",
+  "name": "Network Development Board",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "development",
+   "board"
+  ],
+  "icon": "icons/network-development-board.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-door-badge-reader",
+  "name": "Network Door Badge Reader",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "door",
+   "badge",
+   "reader"
+  ],
+  "icon": "icons/network-door-badge-reader.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-energy-monitor",
+  "name": "Network Energy Monitor",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "energy",
+   "monitor"
+  ],
+  "icon": "icons/network-energy-monitor.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-environmental-sensor",
+  "name": "Network Environmental Sensor",
+  "type": "generic",
+  "category": "sensor",
+  "keywords": [
+   "generic",
+   "environmental",
+   "sensor"
+  ],
+  "icon": "icons/network-environmental-sensor.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-ev-charger",
+  "name": "Network EV Charger",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "ev",
+   "charger"
+  ],
+  "icon": "icons/network-ev-charger.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-garage-door-controller",
+  "name": "Network Garage Door Controller",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "garage",
+   "door",
+   "controller"
+  ],
+  "icon": "icons/network-garage-door-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-gate-controller",
+  "name": "Network Gate Controller",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "gate",
+   "controller"
+  ],
+  "icon": "icons/network-gate-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-gateway",
+  "name": "Network Gateway",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "gateway"
+  ],
+  "icon": "icons/network-gateway.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-generator-controller",
+  "name": "Network Generator Controller",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "generator",
+   "controller"
+  ],
+  "icon": "icons/network-generator-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-gps-fleet-tracker",
+  "name": "Network GPS Fleet Tracker",
+  "type": "generic",
+  "category": "vehicle",
+  "keywords": [
+   "generic",
+   "gps",
+   "fleet",
+   "tracker"
+  ],
+  "icon": "icons/network-gps-fleet-tracker.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-hvac-controller",
+  "name": "Network HVAC Controller",
+  "type": "generic",
+  "category": "hvac",
+  "keywords": [
+   "generic",
+   "hvac",
+   "controller"
+  ],
+  "icon": "icons/network-hvac-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-intercom",
+  "name": "Network Intercom",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "intercom"
+  ],
+  "icon": "icons/network-intercom.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-kiosk",
+  "name": "Network Kiosk",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "kiosk"
+  ],
+  "icon": "icons/network-kiosk.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-laser-cutter",
+  "name": "Network Laser Cutter",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "laser",
+   "cutter"
+  ],
+  "icon": "icons/network-laser-cutter.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-led-lighting-controller",
+  "name": "Network LED Lighting Controller",
+  "type": "generic",
+  "category": "light",
+  "keywords": [
+   "generic",
+   "led",
+   "lighting",
+   "controller"
+  ],
+  "icon": "icons/network-led-lighting-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-media-player",
+  "name": "Network Media Player",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "media",
+   "player"
+  ],
+  "icon": "icons/network-media-player.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-multifunction-printer",
+  "name": "Network Multifunction Printer",
+  "type": "generic",
+  "category": "printer",
+  "keywords": [
+   "generic",
+   "multifunction",
+   "printer"
+  ],
+  "icon": "icons/network-multifunction-printer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-payment-terminal",
+  "name": "Network Payment Terminal",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "payment",
+   "terminal"
+  ],
+  "icon": "icons/network-payment-terminal.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-pdu",
+  "name": "Network PDU",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "pdu"
+  ],
+  "icon": "icons/network-pdu.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-plc",
+  "name": "Network PLC",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "plc"
+  ],
+  "icon": "icons/network-plc.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-printer",
+  "name": "Network Printer",
+  "type": "generic",
+  "category": "printer",
+  "keywords": [
+   "generic",
+   "printer"
+  ],
+  "icon": "icons/network-printer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-projector",
+  "name": "Network Projector",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "projector"
+  ],
+  "icon": "icons/network-projector.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-pump-controller",
+  "name": "Network Pump Controller",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "pump",
+   "controller"
+  ],
+  "icon": "icons/network-pump-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-relay-controller",
+  "name": "Network Relay Controller",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "relay",
+   "controller"
+  ],
+  "icon": "icons/network-relay-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-scanner",
+  "name": "Network Scanner",
+  "type": "generic",
+  "category": "printer",
+  "keywords": [
+   "generic",
+   "scanner"
+  ],
+  "icon": "icons/network-scanner.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-serial-console-server",
+  "name": "Network Serial Console Server",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "serial",
+   "console",
+   "server"
+  ],
+  "icon": "icons/network-serial-console-server.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-set-top-cable-box",
+  "name": "Set-Top / Cable Box",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "set",
+   "top",
+   "cable",
+   "box"
+  ],
+  "icon": "icons/network-set-top-cable-box.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-smart-power-strip",
+  "name": "Network Smart Power Strip",
+  "type": "generic",
+  "category": "smart_plug",
+  "keywords": [
+   "generic",
+   "smart",
+   "power",
+   "strip"
+  ],
+  "icon": "icons/network-smart-power-strip.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-solar-inverter",
+  "name": "Network Solar Inverter",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "solar",
+   "inverter"
+  ],
+  "icon": "icons/network-solar-inverter.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-soundbar",
+  "name": "Network Soundbar",
+  "type": "generic",
+  "category": "speaker",
+  "keywords": [
+   "generic",
+   "soundbar"
+  ],
+  "icon": "icons/network-soundbar.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-speaker",
+  "name": "Network Speaker",
+  "type": "generic",
+  "category": "speaker",
+  "keywords": [
+   "generic",
+   "speaker"
+  ],
+  "icon": "icons/network-speaker.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-time-clock",
+  "name": "Network Time Clock",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "time",
+   "clock"
+  ],
+  "icon": "icons/network-time-clock.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-ups",
+  "name": "Network UPS",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "ups"
+  ],
+  "icon": "icons/network-ups.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-vehicle-charger",
+  "name": "Network Vehicle Charger",
+  "type": "generic",
+  "category": "energy",
+  "keywords": [
+   "generic",
+   "vehicle",
+   "charger"
+  ],
+  "icon": "icons/network-vehicle-charger.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-video-recorder-nvr",
+  "name": "Network Video Recorder (NVR)",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "video",
+   "recorder",
+   "nvr"
+  ],
+  "icon": "icons/network-video-recorder-nvr.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-water-heater",
+  "name": "Network Water Heater",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "water",
+   "heater"
+  ],
+  "icon": "icons/network-water-heater.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "network-weather-station",
+  "name": "Network Weather Station",
+  "type": "generic",
+  "category": "sensor",
+  "keywords": [
+   "generic",
+   "weather",
+   "station"
+  ],
+  "icon": "icons/network-weather-station.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "point-of-sale-terminal",
+  "name": "Point Of Sale Terminal",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "point",
+   "of",
+   "sale",
+   "terminal"
+  ],
+  "icon": "icons/point-of-sale-terminal.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "ptz-ip-camera",
+  "name": "PTZ IP Camera",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "ptz",
+   "ip",
+   "camera"
+  ],
+  "icon": "icons/ptz-ip-camera.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "raspberry-pi-single-board-computer",
+  "name": "Raspberry Pi / Single-Board Computer",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "raspberry",
+   "pi",
+   "single",
+   "board",
+   "computer"
+  ],
+  "icon": "icons/raspberry-pi-single-board-computer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "robot-vacuum",
+  "name": "Robot Vacuum",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "robot",
+   "vacuum"
+  ],
+  "icon": "icons/robot-vacuum.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "router",
+  "name": "Router",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "router"
+  ],
+  "icon": "icons/router.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "server",
+  "name": "Server",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "server"
+  ],
+  "icon": "icons/server.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-air-conditioner",
+  "name": "Smart Air Conditioner",
+  "type": "generic",
+  "category": "hvac",
+  "keywords": [
+   "generic",
+   "smart",
+   "air",
+   "conditioner"
+  ],
+  "icon": "icons/smart-air-conditioner.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-air-purifier",
+  "name": "Smart Air Purifier",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "air",
+   "purifier"
+  ],
+  "icon": "icons/smart-air-purifier.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-coffee-maker",
+  "name": "Smart Coffee Maker",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "coffee",
+   "maker"
+  ],
+  "icon": "icons/smart-coffee-maker.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-dehumidifier",
+  "name": "Smart Dehumidifier",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "dehumidifier"
+  ],
+  "icon": "icons/smart-dehumidifier.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-dishwasher",
+  "name": "Smart Dishwasher",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "dishwasher"
+  ],
+  "icon": "icons/smart-dishwasher.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-dryer",
+  "name": "Smart Dryer",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "dryer"
+  ],
+  "icon": "icons/smart-dryer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-fan",
+  "name": "Smart Fan",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "fan"
+  ],
+  "icon": "icons/smart-fan.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-home-hub",
+  "name": "Smart Home Hub",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "smart",
+   "home",
+   "hub"
+  ],
+  "icon": "icons/smart-home-hub.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-microwave",
+  "name": "Smart Microwave",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "microwave"
+  ],
+  "icon": "icons/smart-microwave.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-oven-range",
+  "name": "Smart Oven / Range",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "oven",
+   "range"
+  ],
+  "icon": "icons/smart-oven-range.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-refrigerator",
+  "name": "Smart Refrigerator",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "refrigerator"
+  ],
+  "icon": "icons/smart-refrigerator.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-speaker",
+  "name": "Smart Speaker",
+  "type": "generic",
+  "category": "speaker",
+  "keywords": [
+   "generic",
+   "smart",
+   "speaker"
+  ],
+  "icon": "icons/smart-speaker.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-tv",
+  "name": "Smart TV",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "smart",
+   "tv"
+  ],
+  "icon": "icons/smart-tv.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smart-washer",
+  "name": "Smart Washer",
+  "type": "generic",
+  "category": "appliance",
+  "keywords": [
+   "generic",
+   "smart",
+   "washer"
+  ],
+  "icon": "icons/smart-washer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smartphone",
+  "name": "Smartphone",
+  "type": "generic",
+  "category": "phone",
+  "keywords": [
+   "generic",
+   "smartphone"
+  ],
+  "icon": "icons/smartphone.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "smartwatch-wearable",
+  "name": "Smartwatch",
+  "type": "generic",
+  "category": "wearable",
+  "keywords": [
+   "generic",
+   "smartwatch",
+   "wearable"
+  ],
+  "icon": "icons/smartwatch-wearable.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "streaming-media-box",
+  "name": "Streaming Media Box",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "streaming",
+   "media",
+   "box"
+  ],
+  "icon": "icons/streaming-media-box.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "streaming-stick",
+  "name": "Streaming Stick",
+  "type": "generic",
+  "category": "tv",
+  "keywords": [
+   "generic",
+   "streaming",
+   "stick"
+  ],
+  "icon": "icons/streaming-stick.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "tablet",
+  "name": "Tablet",
+  "type": "generic",
+  "category": "tablet",
+  "keywords": [
+   "generic",
+   "tablet"
+  ],
+  "icon": "icons/tablet.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "thin-client",
+  "name": "Thin Client",
+  "type": "generic",
+  "category": "computer",
+  "keywords": [
+   "generic",
+   "thin",
+   "client"
+  ],
+  "icon": "icons/thin-client.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "unknown-device",
+  "name": "Unknown Device",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "unknown",
+   "device"
+  ],
+  "icon": "icons/unknown-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "unknown-wifi-device",
+  "name": "Unknown WiFi Device",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "unknown",
+   "device"
+  ],
+  "icon": "icons/unknown-wifi-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "unknown-wired-device",
+  "name": "Unknown Wired Device",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "unknown",
+   "wired",
+   "device"
+  ],
+  "icon": "icons/unknown-wired-device.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "video-conferencing-system",
+  "name": "Video Conferencing System",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "video",
+   "conferencing",
+   "system"
+  ],
+  "icon": "icons/video-conferencing-system.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "video-doorbell",
+  "name": "Video Doorbell",
+  "type": "generic",
+  "category": "doorbell",
+  "keywords": [
+   "generic",
+   "video",
+   "doorbell"
+  ],
+  "icon": "icons/video-doorbell.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "video-intercom",
+  "name": "Video Intercom",
+  "type": "generic",
+  "category": "iot_hub",
+  "keywords": [
+   "generic",
+   "video",
+   "intercom"
+  ],
+  "icon": "icons/video-intercom.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "voip-desk-phone",
+  "name": "VoIP Desk Phone",
+  "type": "generic",
+  "category": "phone",
+  "keywords": [
+   "generic",
+   "voip",
+   "desk",
+   "phone"
+  ],
+  "icon": "icons/voip-desk-phone.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "vpn-appliance",
+  "name": "VPN Appliance",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "vpn",
+   "appliance"
+  ],
+  "icon": "icons/vpn-appliance.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-dash-camera",
+  "name": "WiFi Dash Camera",
+  "type": "generic",
+  "category": "camera",
+  "keywords": [
+   "generic",
+   "dash",
+   "camera"
+  ],
+  "icon": "icons/wifi-dash-camera.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-extender-mesh-node",
+  "name": "WiFi Extender Mesh Node",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "extender",
+   "mesh",
+   "node"
+  ],
+  "icon": "icons/wifi-extender-mesh-node.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-irrigation-controller",
+  "name": "WiFi Irrigation Controller",
+  "type": "generic",
+  "category": "other",
+  "keywords": [
+   "generic",
+   "irrigation",
+   "controller"
+  ],
+  "icon": "icons/wifi-irrigation-controller.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-network-smart-lock",
+  "name": "WiFi Smart Lock",
+  "type": "generic",
+  "category": "smart_lock",
+  "keywords": [
+   "generic",
+   "smart",
+   "lock"
+  ],
+  "icon": "icons/wifi-network-smart-lock.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-smart-bulb",
+  "name": "WiFi Smart Bulb",
+  "type": "generic",
+  "category": "light",
+  "keywords": [
+   "generic",
+   "smart",
+   "bulb"
+  ],
+  "icon": "icons/wifi-smart-bulb.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-smart-dimmer",
+  "name": "WiFi Smart Dimmer",
+  "type": "generic",
+  "category": "light",
+  "keywords": [
+   "generic",
+   "smart",
+   "dimmer"
+  ],
+  "icon": "icons/wifi-smart-dimmer.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-smart-outlet",
+  "name": "WiFi Smart Outlet",
+  "type": "generic",
+  "category": "smart_plug",
+  "keywords": [
+   "generic",
+   "smart",
+   "outlet"
+  ],
+  "icon": "icons/wifi-smart-outlet.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-smart-plug",
+  "name": "WiFi Smart Plug",
+  "type": "generic",
+  "category": "smart_plug",
+  "keywords": [
+   "generic",
+   "smart",
+   "plug"
+  ],
+  "icon": "icons/wifi-smart-plug.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-smart-wall-switch",
+  "name": "WiFi Smart Wall Switch",
+  "type": "generic",
+  "category": "light",
+  "keywords": [
+   "generic",
+   "smart",
+   "wall",
+   "switch"
+  ],
+  "icon": "icons/wifi-smart-wall-switch.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-smoke-carbon-monoxide-detector",
+  "name": "WiFi Smoke / CO Detector",
+  "type": "generic",
+  "category": "sensor",
+  "keywords": [
+   "generic",
+   "smoke",
+   "carbon",
+   "monoxide",
+   "detector"
+  ],
+  "icon": "icons/wifi-smoke-carbon-monoxide-detector.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-temperature-sensor",
+  "name": "WiFi Temperature Sensor",
+  "type": "generic",
+  "category": "sensor",
+  "keywords": [
+   "generic",
+   "temperature",
+   "sensor"
+  ],
+  "icon": "icons/wifi-temperature-sensor.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-thermostat",
+  "name": "WiFi Thermostat",
+  "type": "generic",
+  "category": "thermostat",
+  "keywords": [
+   "generic",
+   "thermostat"
+  ],
+  "icon": "icons/wifi-thermostat.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wifi-water-leak-sensor",
+  "name": "WiFi Water Leak Sensor",
+  "type": "generic",
+  "category": "sensor",
+  "keywords": [
+   "generic",
+   "water",
+   "leak",
+   "sensor"
+  ],
+  "icon": "icons/wifi-water-leak-sensor.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wireless-access-point",
+  "name": "Wireless Access Point",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "wireless",
+   "access",
+   "point"
+  ],
+  "icon": "icons/wireless-access-point.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "wireless-point-to-point-bridge",
+  "name": "Point-to-Point Bridge",
+  "type": "generic",
+  "category": "network",
+  "keywords": [
+   "generic",
+   "wireless",
+   "point",
+   "to",
+   "bridge"
+  ],
+  "icon": "icons/wireless-point-to-point-bridge.png",
+  "contributor": "Tony Virelli"
+ }
+]

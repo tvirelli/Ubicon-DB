@@ -170,3 +170,15 @@ test('buildIndex output includes contributor when present', () => {
     assert.equal(idx.devices[0].contributor, 'Jane Doe');
   });
 });
+
+test('generic device without vendor/model passes', () => {
+  const g = { id: 'generic-ip-camera', name: 'Generic IP Camera', type: 'generic', category: 'camera', keywords: ['camera'], icon: 'icons/generic-ip-camera.png' };
+  assert.deepEqual(validateDevice(g, new Set()), []);
+});
+
+test('bad type value is reported; empty vendor when present is reported', () => {
+  const errsType = validateDevice({ id: 'x', name: 'X', type: 'nope', category: 'other', keywords: [], icon: 'icons/x.png' }, new Set());
+  assert.ok(errsType.some(e => e.includes('type')));
+  const errsVendor = validateDevice({ id: 'y', name: 'Y', vendor: '  ', category: 'other', keywords: [], icon: 'icons/y.png' }, new Set());
+  assert.ok(errsVendor.some(e => e.includes('vendor')));
+});
