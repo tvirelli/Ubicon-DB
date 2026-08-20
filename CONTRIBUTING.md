@@ -23,6 +23,29 @@ Five minutes, four steps:
    `contributor` is optional: a credit-only name (max 60 characters); leave
    it out if you'd rather not be credited.
 
+   **Two kinds of entry.** The record above is a *real device*: a specific
+   branded product, so it has a `vendor` and `model`. Ubicon also has *generic
+   device types*: brandless fallback icons for a kind of device (a generic
+   "IP Security Camera", "NAS", "Smart Plug"). These live in
+   `devices/generic.json`, are marked with `"type": "generic"`, and omit
+   `vendor` and `model` entirely:
+
+   ```json
+   {
+     "id": "network-air-quality-monitor",
+     "name": "Network Air Quality Monitor",
+     "type": "generic",
+     "category": "sensor",
+     "keywords": ["generic", "air", "quality", "monitor"],
+     "icon": "icons/network-air-quality-monitor.png",
+     "contributor": "Jane Doe"
+   }
+   ```
+
+   Use a generic entry when the icon represents a category of device rather
+   than one product. Real devices may set `"type": "real"` but it is the
+   default and can be left out.
+
 2. **Add the icon**: `icons/<id>.png`, exactly 128×128, transparent
    background, 50 KB max. For real products, use a real product photo on a
    transparent background, matching UniFi's own icon style. Illustrations

@@ -2,11 +2,25 @@ name: Device suggestion
 description: Suggest a device to add to the Ubicon device database
 labels: ["device-suggestion"]
 body:
+  - type: dropdown
+    id: entry_type
+    attributes:
+      label: Entry type
+      description: >-
+        A specific product has a brand and model (for example "Acme Doorbell
+        Pro"). A generic device type is a brandless icon for a kind of device
+        (for example a plain "IP Security Camera" or "NAS"). For a generic
+        type, leave Vendor and Model blank.
+      options:
+        - Specific product (has a brand and model)
+        - Generic device type (no brand)
+    validations:
+      required: true
   - type: input
     id: device_name
     attributes:
       label: Device name
-      description: The friendly display name of the device
+      description: The friendly display name of the device or device type
       placeholder: "Acme Doorbell Pro"
     validations:
       required: true
@@ -14,18 +28,18 @@ body:
     id: vendor
     attributes:
       label: Vendor
-      description: The manufacturer or brand name
+      description: The manufacturer or brand name. Leave blank for a generic device type.
       placeholder: "Acme"
     validations:
-      required: true
+      required: false
   - type: input
     id: model
     attributes:
       label: Model
-      description: The model name or number
+      description: The model name or number. Leave blank for a generic device type.
       placeholder: "DB-100"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: category
     attributes:
