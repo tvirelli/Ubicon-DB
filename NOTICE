@@ -1,0 +1,16 @@
+Ubicon-DB NOTICE
+
+The MIT License in LICENSE applies to the source code, schema, build scripts,
+and the textual device records in devices/ and index.json. It does NOT apply to
+the image files in the icons/ directory.
+
+The icons/ images are, in most cases, low-resolution reproductions of
+manufacturer product photographs, included solely to identify the corresponding
+device, under a good-faith fair-use rationale. Copyright in these images, and
+the trademarks, product names, and product likenesses they depict, remains the
+property of their respective owners. The Ubicon project claims no ownership of
+and grants no license to these images.
+
+Rights holders: to request modification or removal of an image, open an issue
+at https://github.com/tvirelli/Ubicon-DB/issues or email tvirelli@gmail.com,
+and it will be handled promptly.
