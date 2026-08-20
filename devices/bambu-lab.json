@@ -1,12 +1,43 @@
 [
  {
+  "id": "bambu-lab-h2d",
+  "name": "Bambu Lab H2D",
+  "vendor": "Bambu Lab",
+  "model": "H2D",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "h2d"
+  ],
+  "icon": "icons/bambu-lab-h2d.png",
+  "contributor": "Tony Virelli"
+ },
+ {
   "id": "bambu-lab-x1-carbon",
   "name": "Bambu Lab X1 Carbon",
   "vendor": "Bambu Lab",
   "model": "X1 Carbon",
   "category": "3d_printer",
-  "keywords": ["3d printer", "x1c"],
+  "keywords": [
+   "3d printer",
+   "x1c"
+  ],
   "icon": "icons/bambu-lab-x1-carbon.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "bambu-lab-x2d",
+  "name": "Bambu Lab X2D",
+  "vendor": "Bambu Lab",
+  "model": "X2D",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "x2d"
+  ],
+  "icon": "icons/bambu-lab-x2d.png",
   "contributor": "Tony Virelli"
  }
 ]

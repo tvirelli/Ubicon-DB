@@ -1,0 +1,30 @@
+[
+ {
+  "id": "siemens-scalance-xb208",
+  "name": "Siemens Scalance XB208",
+  "vendor": "Siemens",
+  "model": "Scalance XB208",
+  "category": "network",
+  "keywords": [
+   "switch",
+   "industrial",
+   "profinet"
+  ],
+  "icon": "icons/siemens-scalance-xb208.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "siemens-simatic-s7-1200",
+  "name": "Siemens SIMATIC S7-1200",
+  "vendor": "Siemens",
+  "model": "SIMATIC S7-1200",
+  "category": "other",
+  "keywords": [
+   "plc",
+   "industrial",
+   "controller"
+  ],
+  "icon": "icons/siemens-simatic-s7-1200.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,0 +1,17 @@
+[
+ {
+  "id": "tesla-backup-gateway",
+  "name": "Tesla Backup Gateway",
+  "vendor": "Tesla",
+  "model": "Backup Gateway",
+  "category": "energy",
+  "keywords": [
+   "powerwall",
+   "energy",
+   "gateway",
+   "solar"
+  ],
+  "icon": "icons/tesla-backup-gateway.png",
+  "contributor": "Tony Virelli"
+ }
+]

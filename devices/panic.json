@@ -1,0 +1,16 @@
+[
+ {
+  "id": "panic-playdate",
+  "name": "Panic Playdate",
+  "vendor": "Panic",
+  "model": "Playdate",
+  "category": "game_console",
+  "keywords": [
+   "handheld",
+   "console",
+   "playdate"
+  ],
+  "icon": "icons/panic-playdate.png",
+  "contributor": "Tony Virelli"
+ }
+]

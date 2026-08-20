@@ -1,0 +1,30 @@
+[
+ {
+  "id": "traeger-ironwood",
+  "name": "Traeger Ironwood",
+  "vendor": "Traeger",
+  "model": "Ironwood",
+  "category": "appliance",
+  "keywords": [
+   "grill",
+   "smoker",
+   "pellet grill"
+  ],
+  "icon": "icons/traeger-ironwood.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "traeger-ironwood-xl",
+  "name": "Traeger Ironwood XL",
+  "vendor": "Traeger",
+  "model": "Ironwood XL",
+  "category": "appliance",
+  "keywords": [
+   "grill",
+   "smoker",
+   "pellet grill"
+  ],
+  "icon": "icons/traeger-ironwood-xl.png",
+  "contributor": "Tony Virelli"
+ }
+]

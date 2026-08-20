@@ -1,0 +1,16 @@
+[
+ {
+  "id": "wallbox-pulsar-plus",
+  "name": "Wallbox Pulsar Plus",
+  "vendor": "Wallbox",
+  "model": "Pulsar Plus",
+  "category": "energy",
+  "keywords": [
+   "ev charger",
+   "evse",
+   "charging"
+  ],
+  "icon": "icons/wallbox-pulsar-plus.png",
+  "contributor": "Tony Virelli"
+ }
+]

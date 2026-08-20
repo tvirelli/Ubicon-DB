@@ -1,0 +1,16 @@
+[
+ {
+  "id": "arlo-essential-video-doorbell",
+  "name": "Arlo Essential Video Doorbell",
+  "vendor": "Arlo",
+  "model": "Essential Video Doorbell",
+  "category": "doorbell",
+  "keywords": [
+   "doorbell",
+   "video doorbell",
+   "camera"
+  ],
+  "icon": "icons/arlo-essential-video-doorbell.png",
+  "contributor": "Tony Virelli"
+ }
+]

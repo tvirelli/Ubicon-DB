@@ -1,0 +1,16 @@
+[
+ {
+  "id": "husqvarna-automower",
+  "name": "Husqvarna Automower",
+  "vendor": "Husqvarna",
+  "model": "Automower",
+  "category": "other",
+  "keywords": [
+   "robot mower",
+   "lawn",
+   "mower"
+  ],
+  "icon": "icons/husqvarna-automower.png",
+  "contributor": "Tony Virelli"
+ }
+]

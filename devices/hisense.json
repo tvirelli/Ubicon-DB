@@ -1,0 +1,16 @@
+[
+ {
+  "id": "hisense-u8-series",
+  "name": "Hisense U8 Series",
+  "vendor": "Hisense",
+  "model": "U8 Series",
+  "category": "tv",
+  "keywords": [
+   "tv",
+   "television",
+   "mini-led"
+  ],
+  "icon": "icons/hisense-u8-series.png",
+  "contributor": "Tony Virelli"
+ }
+]

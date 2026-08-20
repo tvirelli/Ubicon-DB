@@ -1,0 +1,30 @@
+[
+ {
+  "id": "ring-battery-doorbell-plus",
+  "name": "Ring Battery Doorbell Plus",
+  "vendor": "Ring",
+  "model": "Battery Doorbell Plus",
+  "category": "doorbell",
+  "keywords": [
+   "doorbell",
+   "video doorbell",
+   "camera"
+  ],
+  "icon": "icons/ring-battery-doorbell-plus.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "ring-video-doorbell-pro-2",
+  "name": "Ring Video Doorbell Pro 2",
+  "vendor": "Ring",
+  "model": "Video Doorbell Pro 2",
+  "category": "doorbell",
+  "keywords": [
+   "doorbell",
+   "video doorbell",
+   "camera"
+  ],
+  "icon": "icons/ring-video-doorbell-pro-2.png",
+  "contributor": "Tony Virelli"
+ }
+]

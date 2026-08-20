@@ -1,0 +1,31 @@
+[
+ {
+  "id": "asus-rog-ally",
+  "name": "ASUS ROG Ally",
+  "vendor": "ASUS",
+  "model": "ROG Ally",
+  "category": "game_console",
+  "keywords": [
+   "handheld",
+   "rog",
+   "gaming handheld"
+  ],
+  "icon": "icons/asus-rog-ally.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "rog-xbox-ally-x",
+  "name": "ROG Xbox Ally X",
+  "vendor": "ASUS",
+  "model": "ROG Xbox Ally X",
+  "category": "game_console",
+  "keywords": [
+   "handheld",
+   "rog",
+   "xbox",
+   "gaming handheld"
+  ],
+  "icon": "icons/rog-xbox-ally-x.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "id": "anova-precision-cooker",
+  "name": "Anova Precision Cooker",
+  "vendor": "Anova",
+  "model": "Precision Cooker",
+  "category": "appliance",
+  "keywords": [
+   "sous vide",
+   "cooker",
+   "kitchen"
+  ],
+  "icon": "icons/anova-precision-cooker.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,0 +1,17 @@
+[
+ {
+  "id": "kindle-scribe",
+  "name": "Kindle Scribe",
+  "vendor": "Amazon",
+  "model": "Kindle Scribe",
+  "category": "tablet",
+  "keywords": [
+   "e-reader",
+   "ereader",
+   "tablet",
+   "kindle"
+  ],
+  "icon": "icons/kindle-scribe.png",
+  "contributor": "Tony Virelli"
+ }
+]

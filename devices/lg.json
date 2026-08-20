@@ -1,0 +1,16 @@
+[
+ {
+  "id": "lg-oled-c4",
+  "name": "LG OLED C4",
+  "vendor": "LG",
+  "model": "OLED C4",
+  "category": "tv",
+  "keywords": [
+   "tv",
+   "television",
+   "oled"
+  ],
+  "icon": "icons/lg-oled-c4.png",
+  "contributor": "Tony Virelli"
+ }
+]

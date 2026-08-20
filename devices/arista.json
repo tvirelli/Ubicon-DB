@@ -1,0 +1,16 @@
+[
+ {
+  "id": "arista-7050x-series-switch",
+  "name": "Arista 7050X Series Switch",
+  "vendor": "Arista",
+  "model": "7050X Series",
+  "category": "network",
+  "keywords": [
+   "switch",
+   "datacenter",
+   "network switch"
+  ],
+  "icon": "icons/arista-7050x-series-switch.png",
+  "contributor": "Tony Virelli"
+ }
+]

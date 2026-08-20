@@ -1,0 +1,16 @@
+[
+ {
+  "id": "aqara-smart-lock-u100",
+  "name": "Aqara Smart Lock U100",
+  "vendor": "Aqara",
+  "model": "Smart Lock U100",
+  "category": "smart_lock",
+  "keywords": [
+   "deadbolt",
+   "door lock",
+   "keypad lock"
+  ],
+  "icon": "icons/aqara-smart-lock-u100.png",
+  "contributor": "Tony Virelli"
+ }
+]

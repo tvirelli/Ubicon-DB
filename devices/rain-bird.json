@@ -1,0 +1,16 @@
+[
+ {
+  "id": "rain-bird-smart-irrigation-controller",
+  "name": "Rain Bird Smart Irrigation Controller",
+  "vendor": "Rain Bird",
+  "model": "Smart Irrigation Controller",
+  "category": "other",
+  "keywords": [
+   "irrigation",
+   "sprinkler",
+   "controller"
+  ],
+  "icon": "icons/rain-bird-smart-irrigation-controller.png",
+  "contributor": "Tony Virelli"
+ }
+]

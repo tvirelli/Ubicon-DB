@@ -1,0 +1,16 @@
+[
+ {
+  "id": "tcl-qm8",
+  "name": "TCL QM8",
+  "vendor": "TCL",
+  "model": "QM8",
+  "category": "tv",
+  "keywords": [
+   "tv",
+   "television",
+   "mini-led"
+  ],
+  "icon": "icons/tcl-qm8.png",
+  "contributor": "Tony Virelli"
+ }
+]

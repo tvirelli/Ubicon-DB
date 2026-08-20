@@ -1,0 +1,16 @@
+[
+ {
+  "id": "hayward-omnilogic",
+  "name": "Hayward OmniLogic",
+  "vendor": "Hayward",
+  "model": "OmniLogic",
+  "category": "other",
+  "keywords": [
+   "pool",
+   "automation",
+   "controller"
+  ],
+  "icon": "icons/hayward-omnilogic.png",
+  "contributor": "Tony Virelli"
+ }
+]

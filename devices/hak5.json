@@ -1,0 +1,184 @@
+[
+ {
+  "id": "hak5-key-croc",
+  "name": "Hak5 Key Croc",
+  "vendor": "Hak5",
+  "model": "Key Croc",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "keylogger",
+   "security tool"
+  ],
+  "icon": "icons/hak5-key-croc.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-lan-turtle",
+  "name": "Hak5 LAN Turtle",
+  "vendor": "Hak5",
+  "model": "LAN Turtle",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "implant",
+   "security tool"
+  ],
+  "icon": "icons/hak5-lan-turtle.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-packet-squirrel",
+  "name": "Hak5 Packet Squirrel",
+  "vendor": "Hak5",
+  "model": "Packet Squirrel",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "mitm",
+   "security tool"
+  ],
+  "icon": "icons/hak5-packet-squirrel.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-packet-squirrel-mark-ii",
+  "name": "Hak5 Packet Squirrel Mark II",
+  "vendor": "Hak5",
+  "model": "Packet Squirrel Mark II",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "mitm",
+   "security tool"
+  ],
+  "icon": "icons/hak5-packet-squirrel-mark-ii.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-screen-crab",
+  "name": "Hak5 Screen Crab",
+  "vendor": "Hak5",
+  "model": "Screen Crab",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "hdmi",
+   "security tool"
+  ],
+  "icon": "icons/hak5-screen-crab.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-shark-jack",
+  "name": "Hak5 Shark Jack",
+  "vendor": "Hak5",
+  "model": "Shark Jack",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "security tool",
+   "network"
+  ],
+  "icon": "icons/hak5-shark-jack.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-signal-owl",
+  "name": "Hak5 Signal Owl",
+  "vendor": "Hak5",
+  "model": "Signal Owl",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "security tool"
+  ],
+  "icon": "icons/hak5-signal-owl.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-wifi-pineapple-enterprise",
+  "name": "Hak5 WiFi Pineapple Enterprise",
+  "vendor": "Hak5",
+  "model": "WiFi Pineapple Enterprise",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "pineapple"
+  ],
+  "icon": "icons/hak5-wifi-pineapple-enterprise.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-wifi-pineapple-mark-iv",
+  "name": "Hak5 WiFi Pineapple Mark IV",
+  "vendor": "Hak5",
+  "model": "WiFi Pineapple Mark IV",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "pineapple"
+  ],
+  "icon": "icons/hak5-wifi-pineapple-mark-iv.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-wifi-pineapple-mark-v",
+  "name": "Hak5 WiFi Pineapple Mark V",
+  "vendor": "Hak5",
+  "model": "WiFi Pineapple Mark V",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "pineapple"
+  ],
+  "icon": "icons/hak5-wifi-pineapple-mark-v.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-wifi-pineapple-mark-vii",
+  "name": "Hak5 WiFi Pineapple Mark VII",
+  "vendor": "Hak5",
+  "model": "WiFi Pineapple Mark VII",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "pineapple"
+  ],
+  "icon": "icons/hak5-wifi-pineapple-mark-vii.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-wifi-pineapple-nano",
+  "name": "Hak5 WiFi Pineapple Nano",
+  "vendor": "Hak5",
+  "model": "WiFi Pineapple Nano",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "pineapple"
+  ],
+  "icon": "icons/hak5-wifi-pineapple-nano.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "hak5-wifi-pineapple-tetra",
+  "name": "Hak5 WiFi Pineapple Tetra",
+  "vendor": "Hak5",
+  "model": "WiFi Pineapple Tetra",
+  "category": "network",
+  "keywords": [
+   "pentest",
+   "wifi",
+   "pineapple"
+  ],
+  "icon": "icons/hak5-wifi-pineapple-tetra.png",
+  "contributor": "Tony Virelli"
+ }
+]

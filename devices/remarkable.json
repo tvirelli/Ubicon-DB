@@ -1,0 +1,30 @@
+[
+ {
+  "id": "remarkable-2",
+  "name": "reMarkable 2",
+  "vendor": "reMarkable",
+  "model": "2",
+  "category": "tablet",
+  "keywords": [
+   "e-reader",
+   "e-paper",
+   "tablet"
+  ],
+  "icon": "icons/remarkable-2.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "remarkable-paper-pro",
+  "name": "reMarkable Paper Pro",
+  "vendor": "reMarkable",
+  "model": "Paper Pro",
+  "category": "tablet",
+  "keywords": [
+   "e-reader",
+   "e-paper",
+   "tablet"
+  ],
+  "icon": "icons/remarkable-paper-pro.png",
+  "contributor": "Tony Virelli"
+ }
+]

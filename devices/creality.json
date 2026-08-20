@@ -1,0 +1,16 @@
+[
+ {
+  "id": "creality-ender-3-v3-ke",
+  "name": "Creality Ender-3 V3 KE",
+  "vendor": "Creality",
+  "model": "Ender-3 V3 KE",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "ender"
+  ],
+  "icon": "icons/creality-ender-3-v3-ke.png",
+  "contributor": "Tony Virelli"
+ }
+]

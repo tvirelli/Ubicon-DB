@@ -1,0 +1,16 @@
+[
+ {
+  "id": "google-tv-streamer",
+  "name": "Google TV Streamer",
+  "vendor": "Google",
+  "model": "TV Streamer",
+  "category": "tv",
+  "keywords": [
+   "streaming",
+   "media player",
+   "google tv"
+  ],
+  "icon": "icons/google-tv-streamer.png",
+  "contributor": "Tony Virelli"
+ }
+]

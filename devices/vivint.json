@@ -1,0 +1,17 @@
+[
+ {
+  "id": "vivint-smart-hub",
+  "name": "Vivint Smart Hub",
+  "vendor": "Vivint",
+  "model": "Smart Hub",
+  "category": "iot_hub",
+  "keywords": [
+   "security",
+   "hub",
+   "smart home",
+   "panel"
+  ],
+  "icon": "icons/vivint-smart-hub.png",
+  "contributor": "Tony Virelli"
+ }
+]

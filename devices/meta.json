@@ -1,0 +1,16 @@
+[
+ {
+  "id": "meta-quest-3s",
+  "name": "Meta Quest 3S",
+  "vendor": "Meta",
+  "model": "Quest 3S",
+  "category": "other",
+  "keywords": [
+   "vr",
+   "headset",
+   "quest"
+  ],
+  "icon": "icons/meta-quest-3s.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "elegoo-centauri-carbon",
+  "name": "Elegoo Centauri Carbon",
+  "vendor": "Elegoo",
+  "model": "Centauri Carbon",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "centauri"
+  ],
+  "icon": "icons/elegoo-centauri-carbon.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "elegoo-neptune-4-pro",
+  "name": "Elegoo Neptune 4 Pro",
+  "vendor": "Elegoo",
+  "model": "Neptune 4 Pro",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "neptune"
+  ],
+  "icon": "icons/elegoo-neptune-4-pro.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "elegoo-saturn-4-ultra",
+  "name": "Elegoo Saturn 4 Ultra",
+  "vendor": "Elegoo",
+  "model": "Saturn 4 Ultra",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "resin",
+   "saturn"
+  ],
+  "icon": "icons/elegoo-saturn-4-ultra.png",
+  "contributor": "Tony Virelli"
+ }
+]

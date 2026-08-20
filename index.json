@@ -1,8 +1,134 @@
 {
  "schema": 1,
- "generatedAt": "2026-08-17T18:53:22.059Z",
- "count": 2,
+ "generatedAt": "2026-08-20T15:59:02.978Z",
+ "count": 65,
  "devices": [
+  {
+   "id": "allen-bradley-compactlogix-5380",
+   "name": "Allen-Bradley CompactLogix 5380",
+   "vendor": "Allen-Bradley",
+   "model": "CompactLogix 5380",
+   "category": "other",
+   "keywords": [
+    "plc",
+    "industrial",
+    "controller"
+   ],
+   "icon": "icons/allen-bradley-compactlogix-5380.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "analogue-3d",
+   "name": "Analogue 3D",
+   "vendor": "Analogue",
+   "model": "3D",
+   "category": "game_console",
+   "keywords": [
+    "console",
+    "n64",
+    "retro gaming"
+   ],
+   "icon": "icons/analogue-3d.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "anova-precision-cooker",
+   "name": "Anova Precision Cooker",
+   "vendor": "Anova",
+   "model": "Precision Cooker",
+   "category": "appliance",
+   "keywords": [
+    "sous vide",
+    "cooker",
+    "kitchen"
+   ],
+   "icon": "icons/anova-precision-cooker.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "anycubic-kobra-3",
+   "name": "AnyCubic Kobra 3",
+   "vendor": "AnyCubic",
+   "model": "Kobra 3",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "kobra"
+   ],
+   "icon": "icons/anycubic-kobra-3.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "aqara-smart-lock-u100",
+   "name": "Aqara Smart Lock U100",
+   "vendor": "Aqara",
+   "model": "Smart Lock U100",
+   "category": "smart_lock",
+   "keywords": [
+    "deadbolt",
+    "door lock",
+    "keypad lock"
+   ],
+   "icon": "icons/aqara-smart-lock-u100.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "arista-7050x-series-switch",
+   "name": "Arista 7050X Series Switch",
+   "vendor": "Arista",
+   "model": "7050X Series",
+   "category": "network",
+   "keywords": [
+    "switch",
+    "datacenter",
+    "network switch"
+   ],
+   "icon": "icons/arista-7050x-series-switch.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "arlo-essential-video-doorbell",
+   "name": "Arlo Essential Video Doorbell",
+   "vendor": "Arlo",
+   "model": "Essential Video Doorbell",
+   "category": "doorbell",
+   "keywords": [
+    "doorbell",
+    "video doorbell",
+    "camera"
+   ],
+   "icon": "icons/arlo-essential-video-doorbell.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "asus-rog-ally",
+   "name": "ASUS ROG Ally",
+   "vendor": "ASUS",
+   "model": "ROG Ally",
+   "category": "game_console",
+   "keywords": [
+    "handheld",
+    "rog",
+    "gaming handheld"
+   ],
+   "icon": "icons/asus-rog-ally.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "bambu-lab-h2d",
+   "name": "Bambu Lab H2D",
+   "vendor": "Bambu Lab",
+   "model": "H2D",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "h2d"
+   ],
+   "icon": "icons/bambu-lab-h2d.png",
+   "contributor": "Tony Virelli"
+  },
   {
    "id": "bambu-lab-x1-carbon",
    "name": "Bambu Lab X1 Carbon",
@@ -17,6 +143,413 @@
    "contributor": "Tony Virelli"
   },
   {
+   "id": "bambu-lab-x2d",
+   "name": "Bambu Lab X2D",
+   "vendor": "Bambu Lab",
+   "model": "X2D",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "x2d"
+   ],
+   "icon": "icons/bambu-lab-x2d.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "cisco-catalyst-9300",
+   "name": "Cisco Catalyst 9300",
+   "vendor": "Cisco",
+   "model": "Catalyst 9300",
+   "category": "network",
+   "keywords": [
+    "switch",
+    "catalyst",
+    "network switch"
+   ],
+   "icon": "icons/cisco-catalyst-9300.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "clover-station-duo",
+   "name": "Clover Station Duo",
+   "vendor": "Clover",
+   "model": "Station Duo",
+   "category": "other",
+   "keywords": [
+    "pos",
+    "point of sale",
+    "payment"
+   ],
+   "icon": "icons/clover-station-duo.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "creality-ender-3-v3-ke",
+   "name": "Creality Ender-3 V3 KE",
+   "vendor": "Creality",
+   "model": "Ender-3 V3 KE",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "ender"
+   ],
+   "icon": "icons/creality-ender-3-v3-ke.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "elegoo-centauri-carbon",
+   "name": "Elegoo Centauri Carbon",
+   "vendor": "Elegoo",
+   "model": "Centauri Carbon",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "centauri"
+   ],
+   "icon": "icons/elegoo-centauri-carbon.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "elegoo-neptune-4-pro",
+   "name": "Elegoo Neptune 4 Pro",
+   "vendor": "Elegoo",
+   "model": "Neptune 4 Pro",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "neptune"
+   ],
+   "icon": "icons/elegoo-neptune-4-pro.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "elegoo-saturn-4-ultra",
+   "name": "Elegoo Saturn 4 Ultra",
+   "vendor": "Elegoo",
+   "model": "Saturn 4 Ultra",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "resin",
+    "saturn"
+   ],
+   "icon": "icons/elegoo-saturn-4-ultra.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "google-tv-streamer",
+   "name": "Google TV Streamer",
+   "vendor": "Google",
+   "model": "TV Streamer",
+   "category": "tv",
+   "keywords": [
+    "streaming",
+    "media player",
+    "google tv"
+   ],
+   "icon": "icons/google-tv-streamer.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-key-croc",
+   "name": "Hak5 Key Croc",
+   "vendor": "Hak5",
+   "model": "Key Croc",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "keylogger",
+    "security tool"
+   ],
+   "icon": "icons/hak5-key-croc.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-lan-turtle",
+   "name": "Hak5 LAN Turtle",
+   "vendor": "Hak5",
+   "model": "LAN Turtle",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "implant",
+    "security tool"
+   ],
+   "icon": "icons/hak5-lan-turtle.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-packet-squirrel",
+   "name": "Hak5 Packet Squirrel",
+   "vendor": "Hak5",
+   "model": "Packet Squirrel",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "mitm",
+    "security tool"
+   ],
+   "icon": "icons/hak5-packet-squirrel.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-packet-squirrel-mark-ii",
+   "name": "Hak5 Packet Squirrel Mark II",
+   "vendor": "Hak5",
+   "model": "Packet Squirrel Mark II",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "mitm",
+    "security tool"
+   ],
+   "icon": "icons/hak5-packet-squirrel-mark-ii.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-screen-crab",
+   "name": "Hak5 Screen Crab",
+   "vendor": "Hak5",
+   "model": "Screen Crab",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "hdmi",
+    "security tool"
+   ],
+   "icon": "icons/hak5-screen-crab.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-shark-jack",
+   "name": "Hak5 Shark Jack",
+   "vendor": "Hak5",
+   "model": "Shark Jack",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "security tool",
+    "network"
+   ],
+   "icon": "icons/hak5-shark-jack.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-signal-owl",
+   "name": "Hak5 Signal Owl",
+   "vendor": "Hak5",
+   "model": "Signal Owl",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "security tool"
+   ],
+   "icon": "icons/hak5-signal-owl.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-wifi-pineapple-enterprise",
+   "name": "Hak5 WiFi Pineapple Enterprise",
+   "vendor": "Hak5",
+   "model": "WiFi Pineapple Enterprise",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "pineapple"
+   ],
+   "icon": "icons/hak5-wifi-pineapple-enterprise.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-wifi-pineapple-mark-iv",
+   "name": "Hak5 WiFi Pineapple Mark IV",
+   "vendor": "Hak5",
+   "model": "WiFi Pineapple Mark IV",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "pineapple"
+   ],
+   "icon": "icons/hak5-wifi-pineapple-mark-iv.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-wifi-pineapple-mark-v",
+   "name": "Hak5 WiFi Pineapple Mark V",
+   "vendor": "Hak5",
+   "model": "WiFi Pineapple Mark V",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "pineapple"
+   ],
+   "icon": "icons/hak5-wifi-pineapple-mark-v.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-wifi-pineapple-mark-vii",
+   "name": "Hak5 WiFi Pineapple Mark VII",
+   "vendor": "Hak5",
+   "model": "WiFi Pineapple Mark VII",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "pineapple"
+   ],
+   "icon": "icons/hak5-wifi-pineapple-mark-vii.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-wifi-pineapple-nano",
+   "name": "Hak5 WiFi Pineapple Nano",
+   "vendor": "Hak5",
+   "model": "WiFi Pineapple Nano",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "pineapple"
+   ],
+   "icon": "icons/hak5-wifi-pineapple-nano.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hak5-wifi-pineapple-tetra",
+   "name": "Hak5 WiFi Pineapple Tetra",
+   "vendor": "Hak5",
+   "model": "WiFi Pineapple Tetra",
+   "category": "network",
+   "keywords": [
+    "pentest",
+    "wifi",
+    "pineapple"
+   ],
+   "icon": "icons/hak5-wifi-pineapple-tetra.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hayward-omnilogic",
+   "name": "Hayward OmniLogic",
+   "vendor": "Hayward",
+   "model": "OmniLogic",
+   "category": "other",
+   "keywords": [
+    "pool",
+    "automation",
+    "controller"
+   ],
+   "icon": "icons/hayward-omnilogic.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "hisense-u8-series",
+   "name": "Hisense U8 Series",
+   "vendor": "Hisense",
+   "model": "U8 Series",
+   "category": "tv",
+   "keywords": [
+    "tv",
+    "television",
+    "mini-led"
+   ],
+   "icon": "icons/hisense-u8-series.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "husqvarna-automower",
+   "name": "Husqvarna Automower",
+   "vendor": "Husqvarna",
+   "model": "Automower",
+   "category": "other",
+   "keywords": [
+    "robot mower",
+    "lawn",
+    "mower"
+   ],
+   "icon": "icons/husqvarna-automower.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "kindle-scribe",
+   "name": "Kindle Scribe",
+   "vendor": "Amazon",
+   "model": "Kindle Scribe",
+   "category": "tablet",
+   "keywords": [
+    "e-reader",
+    "ereader",
+    "tablet",
+    "kindle"
+   ],
+   "icon": "icons/kindle-scribe.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "kobo-clara-bw",
+   "name": "Kobo Clara BW",
+   "vendor": "Kobo",
+   "model": "Clara BW",
+   "category": "tablet",
+   "keywords": [
+    "e-reader",
+    "ereader",
+    "kobo"
+   ],
+   "icon": "icons/kobo-clara-bw.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "kobo-libra-colour",
+   "name": "Kobo Libra Colour",
+   "vendor": "Kobo",
+   "model": "Libra Colour",
+   "category": "tablet",
+   "keywords": [
+    "e-reader",
+    "ereader",
+    "kobo"
+   ],
+   "icon": "icons/kobo-libra-colour.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "lenovo-legion-go",
+   "name": "Lenovo Legion Go",
+   "vendor": "Lenovo",
+   "model": "Legion Go",
+   "category": "game_console",
+   "keywords": [
+    "handheld",
+    "legion",
+    "gaming handheld"
+   ],
+   "icon": "icons/lenovo-legion-go.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "lg-oled-c4",
+   "name": "LG OLED C4",
+   "vendor": "LG",
+   "model": "OLED C4",
+   "category": "tv",
+   "keywords": [
+    "tv",
+    "television",
+    "oled"
+   ],
+   "icon": "icons/lg-oled-c4.png",
+   "contributor": "Tony Virelli"
+  },
+  {
    "id": "lockly-smart-lock",
    "name": "Lockly Smart Lock",
    "vendor": "Lockly",
@@ -28,6 +561,359 @@
     "keypad lock"
    ],
    "icon": "icons/lockly-smart-lock.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "meta-quest-3s",
+   "name": "Meta Quest 3S",
+   "vendor": "Meta",
+   "model": "Quest 3S",
+   "category": "other",
+   "keywords": [
+    "vr",
+    "headset",
+    "quest"
+   ],
+   "icon": "icons/meta-quest-3s.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "mister-fpga",
+   "name": "MiSTer FPGA",
+   "vendor": "MiSTer",
+   "model": "FPGA (DE10-Nano)",
+   "category": "game_console",
+   "keywords": [
+    "fpga",
+    "retro gaming",
+    "emulation"
+   ],
+   "icon": "icons/mister-fpga.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "moxa-eds-408a",
+   "name": "Moxa EDS-408A",
+   "vendor": "Moxa",
+   "model": "EDS-408A",
+   "category": "network",
+   "keywords": [
+    "switch",
+    "industrial",
+    "network switch"
+   ],
+   "icon": "icons/moxa-eds-408a.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "panic-playdate",
+   "name": "Panic Playdate",
+   "vendor": "Panic",
+   "model": "Playdate",
+   "category": "game_console",
+   "keywords": [
+    "handheld",
+    "console",
+    "playdate"
+   ],
+   "icon": "icons/panic-playdate.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "prusa-core-one",
+   "name": "Prusa Core One",
+   "vendor": "Prusa Research",
+   "model": "Core One",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "prusa"
+   ],
+   "icon": "icons/prusa-core-one.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "rain-bird-smart-irrigation-controller",
+   "name": "Rain Bird Smart Irrigation Controller",
+   "vendor": "Rain Bird",
+   "model": "Smart Irrigation Controller",
+   "category": "other",
+   "keywords": [
+    "irrigation",
+    "sprinkler",
+    "controller"
+   ],
+   "icon": "icons/rain-bird-smart-irrigation-controller.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "remarkable-2",
+   "name": "reMarkable 2",
+   "vendor": "reMarkable",
+   "model": "2",
+   "category": "tablet",
+   "keywords": [
+    "e-reader",
+    "e-paper",
+    "tablet"
+   ],
+   "icon": "icons/remarkable-2.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "remarkable-paper-pro",
+   "name": "reMarkable Paper Pro",
+   "vendor": "reMarkable",
+   "model": "Paper Pro",
+   "category": "tablet",
+   "keywords": [
+    "e-reader",
+    "e-paper",
+    "tablet"
+   ],
+   "icon": "icons/remarkable-paper-pro.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "ring-battery-doorbell-plus",
+   "name": "Ring Battery Doorbell Plus",
+   "vendor": "Ring",
+   "model": "Battery Doorbell Plus",
+   "category": "doorbell",
+   "keywords": [
+    "doorbell",
+    "video doorbell",
+    "camera"
+   ],
+   "icon": "icons/ring-battery-doorbell-plus.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "ring-video-doorbell-pro-2",
+   "name": "Ring Video Doorbell Pro 2",
+   "vendor": "Ring",
+   "model": "Video Doorbell Pro 2",
+   "category": "doorbell",
+   "keywords": [
+    "doorbell",
+    "video doorbell",
+    "camera"
+   ],
+   "icon": "icons/ring-video-doorbell-pro-2.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "rog-xbox-ally-x",
+   "name": "ROG Xbox Ally X",
+   "vendor": "ASUS",
+   "model": "ROG Xbox Ally X",
+   "category": "game_console",
+   "keywords": [
+    "handheld",
+    "rog",
+    "xbox",
+    "gaming handheld"
+   ],
+   "icon": "icons/rog-xbox-ally-x.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "sega-dreamcast",
+   "name": "Sega Dreamcast",
+   "vendor": "Sega",
+   "model": "Dreamcast",
+   "category": "game_console",
+   "keywords": [
+    "console",
+    "retro gaming",
+    "dreamcast"
+   ],
+   "icon": "icons/sega-dreamcast.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "siemens-scalance-xb208",
+   "name": "Siemens Scalance XB208",
+   "vendor": "Siemens",
+   "model": "Scalance XB208",
+   "category": "network",
+   "keywords": [
+    "switch",
+    "industrial",
+    "profinet"
+   ],
+   "icon": "icons/siemens-scalance-xb208.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "siemens-simatic-s7-1200",
+   "name": "Siemens SIMATIC S7-1200",
+   "vendor": "Siemens",
+   "model": "SIMATIC S7-1200",
+   "category": "other",
+   "keywords": [
+    "plc",
+    "industrial",
+    "controller"
+   ],
+   "icon": "icons/siemens-simatic-s7-1200.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "simplisafe-video-doorbell-pro",
+   "name": "SimpliSafe Video Doorbell Pro",
+   "vendor": "SimpliSafe",
+   "model": "Video Doorbell Pro",
+   "category": "doorbell",
+   "keywords": [
+    "doorbell",
+    "video doorbell",
+    "camera"
+   ],
+   "icon": "icons/simplisafe-video-doorbell-pro.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "sonicwall-tz370",
+   "name": "SonicWall TZ370",
+   "vendor": "SonicWall",
+   "model": "TZ370",
+   "category": "network",
+   "keywords": [
+    "firewall",
+    "security",
+    "gateway"
+   ],
+   "icon": "icons/sonicwall-tz370.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "switchbot-lock-pro",
+   "name": "SwitchBot Lock Pro",
+   "vendor": "SwitchBot",
+   "model": "Lock Pro",
+   "category": "smart_lock",
+   "keywords": [
+    "door lock",
+    "retrofit lock",
+    "smart lock"
+   ],
+   "icon": "icons/switchbot-lock-pro.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "tcl-qm8",
+   "name": "TCL QM8",
+   "vendor": "TCL",
+   "model": "QM8",
+   "category": "tv",
+   "keywords": [
+    "tv",
+    "television",
+    "mini-led"
+   ],
+   "icon": "icons/tcl-qm8.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "tesla-backup-gateway",
+   "name": "Tesla Backup Gateway",
+   "vendor": "Tesla",
+   "model": "Backup Gateway",
+   "category": "energy",
+   "keywords": [
+    "powerwall",
+    "energy",
+    "gateway",
+    "solar"
+   ],
+   "icon": "icons/tesla-backup-gateway.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "traeger-ironwood",
+   "name": "Traeger Ironwood",
+   "vendor": "Traeger",
+   "model": "Ironwood",
+   "category": "appliance",
+   "keywords": [
+    "grill",
+    "smoker",
+    "pellet grill"
+   ],
+   "icon": "icons/traeger-ironwood.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "traeger-ironwood-xl",
+   "name": "Traeger Ironwood XL",
+   "vendor": "Traeger",
+   "model": "Ironwood XL",
+   "category": "appliance",
+   "keywords": [
+    "grill",
+    "smoker",
+    "pellet grill"
+   ],
+   "icon": "icons/traeger-ironwood-xl.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "vivint-smart-hub",
+   "name": "Vivint Smart Hub",
+   "vendor": "Vivint",
+   "model": "Smart Hub",
+   "category": "iot_hub",
+   "keywords": [
+    "security",
+    "hub",
+    "smart home",
+    "panel"
+   ],
+   "icon": "icons/vivint-smart-hub.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "wallbox-pulsar-plus",
+   "name": "Wallbox Pulsar Plus",
+   "vendor": "Wallbox",
+   "model": "Pulsar Plus",
+   "category": "energy",
+   "keywords": [
+    "ev charger",
+    "evse",
+    "charging"
+   ],
+   "icon": "icons/wallbox-pulsar-plus.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "weber-connect-smart-grilling-hub",
+   "name": "Weber Connect Smart Grilling Hub",
+   "vendor": "Weber",
+   "model": "Connect Smart Grilling Hub",
+   "category": "appliance",
+   "keywords": [
+    "grill",
+    "bbq",
+    "thermometer"
+   ],
+   "icon": "icons/weber-connect-smart-grilling-hub.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "yale-assure-lock-2",
+   "name": "Yale Assure Lock 2",
+   "vendor": "Yale",
+   "model": "Assure Lock 2",
+   "category": "smart_lock",
+   "keywords": [
+    "deadbolt",
+    "door lock",
+    "keypad lock"
+   ],
+   "icon": "icons/yale-assure-lock-2.png",
    "contributor": "Tony Virelli"
   }
  ]

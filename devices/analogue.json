@@ -1,0 +1,16 @@
+[
+ {
+  "id": "analogue-3d",
+  "name": "Analogue 3D",
+  "vendor": "Analogue",
+  "model": "3D",
+  "category": "game_console",
+  "keywords": [
+   "console",
+   "n64",
+   "retro gaming"
+  ],
+  "icon": "icons/analogue-3d.png",
+  "contributor": "Tony Virelli"
+ }
+]

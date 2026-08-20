@@ -1,0 +1,16 @@
+[
+ {
+  "id": "mister-fpga",
+  "name": "MiSTer FPGA",
+  "vendor": "MiSTer",
+  "model": "FPGA (DE10-Nano)",
+  "category": "game_console",
+  "keywords": [
+   "fpga",
+   "retro gaming",
+   "emulation"
+  ],
+  "icon": "icons/mister-fpga.png",
+  "contributor": "Tony Virelli"
+ }
+]

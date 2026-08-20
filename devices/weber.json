@@ -1,0 +1,16 @@
+[
+ {
+  "id": "weber-connect-smart-grilling-hub",
+  "name": "Weber Connect Smart Grilling Hub",
+  "vendor": "Weber",
+  "model": "Connect Smart Grilling Hub",
+  "category": "appliance",
+  "keywords": [
+   "grill",
+   "bbq",
+   "thermometer"
+  ],
+  "icon": "icons/weber-connect-smart-grilling-hub.png",
+  "contributor": "Tony Virelli"
+ }
+]

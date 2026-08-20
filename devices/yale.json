@@ -1,0 +1,16 @@
+[
+ {
+  "id": "yale-assure-lock-2",
+  "name": "Yale Assure Lock 2",
+  "vendor": "Yale",
+  "model": "Assure Lock 2",
+  "category": "smart_lock",
+  "keywords": [
+   "deadbolt",
+   "door lock",
+   "keypad lock"
+  ],
+  "icon": "icons/yale-assure-lock-2.png",
+  "contributor": "Tony Virelli"
+ }
+]

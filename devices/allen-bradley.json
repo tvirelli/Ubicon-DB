@@ -1,0 +1,16 @@
+[
+ {
+  "id": "allen-bradley-compactlogix-5380",
+  "name": "Allen-Bradley CompactLogix 5380",
+  "vendor": "Allen-Bradley",
+  "model": "CompactLogix 5380",
+  "category": "other",
+  "keywords": [
+   "plc",
+   "industrial",
+   "controller"
+  ],
+  "icon": "icons/allen-bradley-compactlogix-5380.png",
+  "contributor": "Tony Virelli"
+ }
+]

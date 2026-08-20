@@ -1,0 +1,16 @@
+[
+ {
+  "id": "lenovo-legion-go",
+  "name": "Lenovo Legion Go",
+  "vendor": "Lenovo",
+  "model": "Legion Go",
+  "category": "game_console",
+  "keywords": [
+   "handheld",
+   "legion",
+   "gaming handheld"
+  ],
+  "icon": "icons/lenovo-legion-go.png",
+  "contributor": "Tony Virelli"
+ }
+]

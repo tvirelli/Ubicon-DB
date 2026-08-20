@@ -1,0 +1,16 @@
+[
+ {
+  "id": "clover-station-duo",
+  "name": "Clover Station Duo",
+  "vendor": "Clover",
+  "model": "Station Duo",
+  "category": "other",
+  "keywords": [
+   "pos",
+   "point of sale",
+   "payment"
+  ],
+  "icon": "icons/clover-station-duo.png",
+  "contributor": "Tony Virelli"
+ }
+]

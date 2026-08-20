@@ -1,0 +1,30 @@
+[
+ {
+  "id": "kobo-clara-bw",
+  "name": "Kobo Clara BW",
+  "vendor": "Kobo",
+  "model": "Clara BW",
+  "category": "tablet",
+  "keywords": [
+   "e-reader",
+   "ereader",
+   "kobo"
+  ],
+  "icon": "icons/kobo-clara-bw.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "kobo-libra-colour",
+  "name": "Kobo Libra Colour",
+  "vendor": "Kobo",
+  "model": "Libra Colour",
+  "category": "tablet",
+  "keywords": [
+   "e-reader",
+   "ereader",
+   "kobo"
+  ],
+  "icon": "icons/kobo-libra-colour.png",
+  "contributor": "Tony Virelli"
+ }
+]

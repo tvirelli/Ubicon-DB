@@ -1,0 +1,16 @@
+[
+ {
+  "id": "anycubic-kobra-3",
+  "name": "AnyCubic Kobra 3",
+  "vendor": "AnyCubic",
+  "model": "Kobra 3",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "kobra"
+  ],
+  "icon": "icons/anycubic-kobra-3.png",
+  "contributor": "Tony Virelli"
+ }
+]

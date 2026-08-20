@@ -1,0 +1,16 @@
+[
+ {
+  "id": "sega-dreamcast",
+  "name": "Sega Dreamcast",
+  "vendor": "Sega",
+  "model": "Dreamcast",
+  "category": "game_console",
+  "keywords": [
+   "console",
+   "retro gaming",
+   "dreamcast"
+  ],
+  "icon": "icons/sega-dreamcast.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "id": "moxa-eds-408a",
+  "name": "Moxa EDS-408A",
+  "vendor": "Moxa",
+  "model": "EDS-408A",
+  "category": "network",
+  "keywords": [
+   "switch",
+   "industrial",
+   "network switch"
+  ],
+  "icon": "icons/moxa-eds-408a.png",
+  "contributor": "Tony Virelli"
+ }
+]

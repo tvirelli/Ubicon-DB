@@ -1,0 +1,16 @@
+[
+ {
+  "id": "switchbot-lock-pro",
+  "name": "SwitchBot Lock Pro",
+  "vendor": "SwitchBot",
+  "model": "Lock Pro",
+  "category": "smart_lock",
+  "keywords": [
+   "door lock",
+   "retrofit lock",
+   "smart lock"
+  ],
+  "icon": "icons/switchbot-lock-pro.png",
+  "contributor": "Tony Virelli"
+ }
+]

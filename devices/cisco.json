@@ -1,0 +1,16 @@
+[
+ {
+  "id": "cisco-catalyst-9300",
+  "name": "Cisco Catalyst 9300",
+  "vendor": "Cisco",
+  "model": "Catalyst 9300",
+  "category": "network",
+  "keywords": [
+   "switch",
+   "catalyst",
+   "network switch"
+  ],
+  "icon": "icons/cisco-catalyst-9300.png",
+  "contributor": "Tony Virelli"
+ }
+]

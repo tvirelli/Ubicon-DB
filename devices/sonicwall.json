@@ -1,0 +1,16 @@
+[
+ {
+  "id": "sonicwall-tz370",
+  "name": "SonicWall TZ370",
+  "vendor": "SonicWall",
+  "model": "TZ370",
+  "category": "network",
+  "keywords": [
+   "firewall",
+   "security",
+   "gateway"
+  ],
+  "icon": "icons/sonicwall-tz370.png",
+  "contributor": "Tony Virelli"
+ }
+]

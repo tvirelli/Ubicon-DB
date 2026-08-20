@@ -1,0 +1,16 @@
+[
+ {
+  "id": "simplisafe-video-doorbell-pro",
+  "name": "SimpliSafe Video Doorbell Pro",
+  "vendor": "SimpliSafe",
+  "model": "Video Doorbell Pro",
+  "category": "doorbell",
+  "keywords": [
+   "doorbell",
+   "video doorbell",
+   "camera"
+  ],
+  "icon": "icons/simplisafe-video-doorbell-pro.png",
+  "contributor": "Tony Virelli"
+ }
+]

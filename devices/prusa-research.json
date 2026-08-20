@@ -1,0 +1,16 @@
+[
+ {
+  "id": "prusa-core-one",
+  "name": "Prusa Core One",
+  "vendor": "Prusa Research",
+  "model": "Core One",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "prusa"
+  ],
+  "icon": "icons/prusa-core-one.png",
+  "contributor": "Tony Virelli"
+ }
+]
