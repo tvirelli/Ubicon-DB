@@ -46,7 +46,7 @@ Five minutes, four steps:
    than one product. Real devices may set `"type": "real"` but it is the
    default and can be left out.
 
-2. **Add the icon**: `icons/<id>.png`, exactly 128×128, transparent
+2. **Add the icon**: `icons/<id>.png`, exactly 128×128 at 72 DPI, transparent
    background, 50 KB max. For real products, use a real product photo on a
    transparent background, matching UniFi's own icon style. Illustrations
    are fine for custom or general-use device entries (generic sensors, DIY
