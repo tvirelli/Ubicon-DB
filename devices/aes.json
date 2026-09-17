@@ -1,0 +1,19 @@
+[
+ {
+  "id": "aes-opyn-ip-ibk",
+  "name": "AES OPYN-IP-IBK",
+  "vendor": "AES",
+  "model": "OPYN-IP-IBK",
+  "category": "doorbell",
+  "keywords": [
+   "opyn",
+   "gate intercom",
+   "video intercom",
+   "keypad",
+   "gate keypad",
+   "access control"
+  ],
+  "icon": "icons/aes-opyn-ip-ibk.png",
+  "contributor": "Tony Virelli"
+ }
+]
