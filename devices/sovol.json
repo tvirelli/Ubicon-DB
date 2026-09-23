@@ -1,0 +1,17 @@
+[
+ {
+  "id": "sovol-sv07",
+  "name": "Sovol SV07",
+  "vendor": "Sovol",
+  "model": "SV07",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "klipper",
+   "sv07"
+  ],
+  "icon": "icons/sovol-sv07.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,5 +1,21 @@
 [
  {
+  "id": "ring-alarm-pro",
+  "name": "Ring Alarm Pro",
+  "vendor": "Ring",
+  "model": "Alarm Pro",
+  "category": "iot_hub",
+  "keywords": [
+   "alarm",
+   "base station",
+   "security hub",
+   "eero",
+   "router"
+  ],
+  "icon": "icons/ring-alarm-pro.png",
+  "contributor": "Tony Virelli"
+ },
+ {
   "id": "ring-battery-doorbell-plus",
   "name": "Ring Battery Doorbell Plus",
   "vendor": "Ring",

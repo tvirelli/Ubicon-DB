@@ -1,0 +1,17 @@
+[
+ {
+  "id": "flashforge-adventurer-5m-pro",
+  "name": "FlashForge Adventurer 5M Pro",
+  "vendor": "FlashForge",
+  "model": "Adventurer 5M Pro",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "adventurer",
+   "5m pro"
+  ],
+  "icon": "icons/flashforge-adventurer-5m-pro.png",
+  "contributor": "Tony Virelli"
+ }
+]

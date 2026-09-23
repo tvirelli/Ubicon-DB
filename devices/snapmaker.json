@@ -1,0 +1,17 @@
+[
+ {
+  "id": "snapmaker-j1",
+  "name": "Snapmaker J1",
+  "vendor": "Snapmaker",
+  "model": "J1",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "idex",
+   "dual extruder",
+   "j1"
+  ],
+  "icon": "icons/snapmaker-j1.png",
+  "contributor": "Tony Virelli"
+ }
+]

@@ -1,0 +1,17 @@
+[
+ {
+  "id": "glowforge-aura",
+  "name": "Glowforge Aura",
+  "vendor": "Glowforge",
+  "model": "Aura",
+  "category": "other",
+  "keywords": [
+   "laser cutter",
+   "laser engraver",
+   "craft laser",
+   "aura"
+  ],
+  "icon": "icons/glowforge-aura.png",
+  "contributor": "Tony Virelli"
+ }
+]

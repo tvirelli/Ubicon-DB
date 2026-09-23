@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generatedAt": "2026-09-17T18:55:06.939Z",
- "count": 197,
+ "generatedAt": "2026-09-23T19:44:13.172Z",
+ "count": 205,
  "devices": [
   {
    "id": "aes-opyn-ip-ibk",
@@ -396,6 +396,21 @@
    "contributor": "Tony Virelli"
   },
   {
+   "id": "flashforge-adventurer-5m-pro",
+   "name": "FlashForge Adventurer 5M Pro",
+   "vendor": "FlashForge",
+   "model": "Adventurer 5M Pro",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "adventurer",
+    "5m pro"
+   ],
+   "icon": "icons/flashforge-adventurer-5m-pro.png",
+   "contributor": "Tony Virelli"
+  },
+  {
    "id": "game-console",
    "name": "Game Console",
    "type": "generic",
@@ -589,6 +604,21 @@
     "server"
    ],
    "icon": "icons/generic-server.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "glowforge-aura",
+   "name": "Glowforge Aura",
+   "vendor": "Glowforge",
+   "model": "Aura",
+   "category": "other",
+   "keywords": [
+    "laser cutter",
+    "laser engraver",
+    "craft laser",
+    "aura"
+   ],
+   "icon": "icons/glowforge-aura.png",
    "contributor": "Tony Virelli"
   },
   {
@@ -1759,6 +1789,21 @@
    "contributor": "Tony Virelli"
   },
   {
+   "id": "qidi-plus-4",
+   "name": "QIDI Plus 4",
+   "vendor": "QIDI",
+   "model": "Plus 4",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "plus 4",
+    "qidi"
+   ],
+   "icon": "icons/qidi-plus-4.png",
+   "contributor": "Tony Virelli"
+  },
+  {
    "id": "rain-bird-smart-irrigation-controller",
    "name": "Rain Bird Smart Irrigation Controller",
    "vendor": "Rain Bird",
@@ -1814,6 +1859,22 @@
     "tablet"
    ],
    "icon": "icons/remarkable-paper-pro.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "ring-alarm-pro",
+   "name": "Ring Alarm Pro",
+   "vendor": "Ring",
+   "model": "Alarm Pro",
+   "category": "iot_hub",
+   "keywords": [
+    "alarm",
+    "base station",
+    "security hub",
+    "eero",
+    "router"
+   ],
+   "icon": "icons/ring-alarm-pro.png",
    "contributor": "Tony Virelli"
   },
   {
@@ -2165,6 +2226,21 @@
    "contributor": "Tony Virelli"
   },
   {
+   "id": "snapmaker-j1",
+   "name": "Snapmaker J1",
+   "vendor": "Snapmaker",
+   "model": "J1",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "idex",
+    "dual extruder",
+    "j1"
+   ],
+   "icon": "icons/snapmaker-j1.png",
+   "contributor": "Tony Virelli"
+  },
+  {
    "id": "sonicwall-tz370",
    "name": "SonicWall TZ370",
    "vendor": "SonicWall",
@@ -2176,6 +2252,21 @@
     "gateway"
    ],
    "icon": "icons/sonicwall-tz370.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "sovol-sv07",
+   "name": "Sovol SV07",
+   "vendor": "Sovol",
+   "model": "SV07",
+   "category": "3d_printer",
+   "keywords": [
+    "3d printer",
+    "fdm",
+    "klipper",
+    "sv07"
+   ],
+   "icon": "icons/sovol-sv07.png",
    "contributor": "Tony Virelli"
   },
   {
@@ -2274,6 +2365,21 @@
    "contributor": "Tony Virelli"
   },
   {
+   "id": "tp-link-tapo-c120",
+   "name": "TP-Link Tapo C120",
+   "vendor": "TP-Link",
+   "model": "Tapo C120",
+   "category": "camera",
+   "keywords": [
+    "camera",
+    "tapo",
+    "indoor camera",
+    "outdoor camera"
+   ],
+   "icon": "icons/tp-link-tapo-c120.png",
+   "contributor": "Tony Virelli"
+  },
+  {
    "id": "traeger-ironwood",
    "name": "Traeger Ironwood",
    "vendor": "Traeger",
@@ -2299,6 +2405,22 @@
     "pellet grill"
    ],
    "icon": "icons/traeger-ironwood-xl.png",
+   "contributor": "Tony Virelli"
+  },
+  {
+   "id": "ultraloq-latch5-fingerprint-smart-lock",
+   "name": "Ultraloq Latch 5 Fingerprint Smart Lock",
+   "vendor": "U-tec",
+   "model": "Latch 5 Fingerprint",
+   "category": "smart_lock",
+   "keywords": [
+    "smart lock",
+    "fingerprint",
+    "latch",
+    "ultraloq",
+    "door lock"
+   ],
+   "icon": "icons/ultraloq-latch5-fingerprint-smart-lock.png",
    "contributor": "Tony Virelli"
   },
   {

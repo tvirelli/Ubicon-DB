@@ -1,0 +1,18 @@
+[
+ {
+  "id": "ultraloq-latch5-fingerprint-smart-lock",
+  "name": "Ultraloq Latch 5 Fingerprint Smart Lock",
+  "vendor": "U-tec",
+  "model": "Latch 5 Fingerprint",
+  "category": "smart_lock",
+  "keywords": [
+   "smart lock",
+   "fingerprint",
+   "latch",
+   "ultraloq",
+   "door lock"
+  ],
+  "icon": "icons/ultraloq-latch5-fingerprint-smart-lock.png",
+  "contributor": "Tony Virelli"
+ }
+]

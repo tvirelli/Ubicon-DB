@@ -1,0 +1,17 @@
+[
+ {
+  "id": "qidi-plus-4",
+  "name": "QIDI Plus 4",
+  "vendor": "QIDI",
+  "model": "Plus 4",
+  "category": "3d_printer",
+  "keywords": [
+   "3d printer",
+   "fdm",
+   "plus 4",
+   "qidi"
+  ],
+  "icon": "icons/qidi-plus-4.png",
+  "contributor": "Tony Virelli"
+ }
+]

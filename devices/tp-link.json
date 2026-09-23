@@ -1,0 +1,17 @@
+[
+ {
+  "id": "tp-link-tapo-c120",
+  "name": "TP-Link Tapo C120",
+  "vendor": "TP-Link",
+  "model": "Tapo C120",
+  "category": "camera",
+  "keywords": [
+   "camera",
+   "tapo",
+   "indoor camera",
+   "outdoor camera"
+  ],
+  "icon": "icons/tp-link-tapo-c120.png",
+  "contributor": "Tony Virelli"
+ }
+]
