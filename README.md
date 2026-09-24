@@ -33,4 +33,4 @@ licensed, or a low-resolution manufacturer image used only to identify the
 device (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 If you own rights to an image here and want it changed or removed, open an issue
-or email ubicon@tonyvirelli.com, and it will be handled promptly.
+or email info@ubiconapp.com, and it will be handled promptly.
