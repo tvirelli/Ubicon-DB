@@ -182,3 +182,91 @@ test('bad type value is reported; empty vendor when present is reported', () => 
   const errsVendor = validateDevice({ id: 'y', name: 'Y', vendor: '  ', category: 'other', keywords: [], icon: 'icons/y.png' }, new Set());
   assert.ok(errsVendor.some(e => e.includes('vendor')));
 });
+
+// ---- transparency ----
+// A tiny PNG encoder for fixtures: 8-bit, no interlace unless asked, one
+// IDAT. pixels is an array of rows, each row an array of [r,g,b,a] or
+// [r,g,b] depending on colorType (2 = RGB, 6 = RGBA).
+import zlib from 'node:zlib';
+function encodePng(pixels, { colorType = 6, interlace = 0 } = {}) {
+  const height = pixels.length, width = pixels[0].length;
+  const bpp = colorType === 6 ? 4 : 3;
+  const raw = Buffer.alloc((width * bpp + 1) * height);
+  for (let y = 0; y < height; y++) {
+    raw[y * (width * bpp + 1)] = 0; // filter: none
+    for (let x = 0; x < width; x++) {
+      const px = pixels[y][x];
+      for (let c = 0; c < bpp; c++) raw[y * (width * bpp + 1) + 1 + x * bpp + c] = px[c];
+    }
+  }
+  const chunk = (type, data) => {
+    const len = Buffer.alloc(4); len.writeUInt32BE(data.length);
+    const td = Buffer.concat([Buffer.from(type, 'ascii'), data]);
+    const crc = Buffer.alloc(4); crc.writeUInt32BE(zlib.crc32(td) >>> 0);
+    return Buffer.concat([len, td, crc]);
+  };
+  const ihdr = Buffer.alloc(13);
+  ihdr.writeUInt32BE(width, 0); ihdr.writeUInt32BE(height, 4);
+  ihdr[8] = 8; ihdr[9] = colorType; ihdr[10] = 0; ihdr[11] = 0; ihdr[12] = interlace;
+  return Buffer.concat([
+    Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]),
+    chunk('IHDR', ihdr), chunk('IDAT', zlib.deflateSync(raw)), chunk('IEND', Buffer.alloc(0)),
+  ]);
+}
+const cutout = (size) => Array.from({ length: size }, (_, y) => Array.from({ length: size }, (_, x) =>
+  (x < 2 || y < 2 || x >= size - 2 || y >= size - 2) ? [0, 0, 0, 0] : [200, 30, 30, 255]));
+const opaque = (size) => Array.from({ length: size }, () => Array.from({ length: size }, () => [255, 255, 255, 255]));
+const rgb = (size) => Array.from({ length: size }, () => Array.from({ length: size }, () => [255, 255, 255]));
+
+import { pngTransparency } from '../scripts/lib.js';
+
+test('pngTransparency accepts a cutout on a transparent background', () => {
+  const t = pngTransparency(encodePng(cutout(8)));
+  assert.equal(t.ok, true);
+  assert.equal(t.hasAlpha, true);
+  assert.equal(t.opaqueCorners, 0);
+});
+
+test('pngTransparency reports a PNG with no alpha channel', () => {
+  const t = pngTransparency(encodePng(rgb(8), { colorType: 2 }));
+  assert.equal(t.ok, true);
+  assert.equal(t.hasAlpha, false);
+});
+
+test('pngTransparency counts opaque corners on an alpha PNG that is all opaque', () => {
+  const t = pngTransparency(encodePng(opaque(8)));
+  assert.equal(t.hasAlpha, true);
+  assert.equal(t.opaqueCorners, 4);
+});
+
+test('pngTransparency refuses interlaced PNGs with a clear reason', () => {
+  const t = pngTransparency(encodePng(cutout(8), { interlace: 1 }));
+  assert.equal(t.ok, false);
+  assert.match(t.reason, /interlace/i);
+});
+
+function repoWithIcon(dir, png) {
+  fs.mkdirSync(path.join(dir, 'devices'));
+  fs.mkdirSync(path.join(dir, 'icons'));
+  fs.writeFileSync(path.join(dir, 'devices', 'lockly.json'), JSON.stringify([good()]));
+  fs.writeFileSync(path.join(dir, 'icons', 'lockly-smart-lock.png'), png);
+  return validateRepo(dir).errors.filter(e => e.startsWith('icons/'));
+}
+
+test('validateRepo passes a 128x128 cutout icon', () => {
+  withTempDir(dir => assert.deepEqual(repoWithIcon(dir, encodePng(cutout(128))), []));
+});
+
+test('validateRepo rejects an icon without an alpha channel', () => {
+  withTempDir(dir => {
+    const errs = repoWithIcon(dir, encodePng(rgb(128), { colorType: 2 }));
+    assert.ok(errs.some(e => /alpha/i.test(e)), errs.join('\n'));
+  });
+});
+
+test('validateRepo rejects an icon whose background is opaque', () => {
+  withTempDir(dir => {
+    const errs = repoWithIcon(dir, encodePng(opaque(128)));
+    assert.ok(errs.some(e => /transparent/i.test(e)), errs.join('\n'));
+  });
+});

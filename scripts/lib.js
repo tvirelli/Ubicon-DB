@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import zlib from 'node:zlib';
 
 export const CATEGORIES = [
   'camera', 'doorbell', 'smart_lock', 'smart_plug', 'light', 'sensor',
@@ -66,6 +67,75 @@ export function pngInfo(buf) {
   return { ok: true, width: buf.readUInt32BE(16), height: buf.readUInt32BE(20) };
 }
 
+// Reads enough of a PNG to say whether it can be transparent (an alpha
+// channel, or a tRNS chunk) and whether its four corner pixels actually
+// are. Icons are cutouts on a transparent background, so opaque corners
+// mean the background was baked in. Non-interlaced 8-bit and 16-bit PNGs
+// of every colour type are decoded; interlaced files are refused with a
+// message that says how to re-save.
+export function pngTransparency(buf) {
+  const info = pngInfo(buf);
+  if (!info.ok) return { ok: false, reason: info.reason };
+  const { width, height } = info;
+  const bitDepth = buf[24], colorType = buf[25], interlace = buf[28];
+  if (interlace !== 0) return { ok: false, reason: 'interlaced PNG; re-save without interlacing (Adam7)' };
+  if (bitDepth !== 8 && bitDepth !== 16) return { ok: false, reason: `${bitDepth}-bit PNG; re-save as 8-bit` };
+  const channels = { 0: 1, 2: 3, 3: 1, 4: 2, 6: 4 }[colorType];
+  if (!channels) return { ok: false, reason: `unknown PNG colour type ${colorType}` };
+  let pos = 8;
+  const idat = [];
+  let trns = null;
+  while (pos + 8 <= buf.length) {
+    const len = buf.readUInt32BE(pos);
+    const type = buf.toString('ascii', pos + 4, pos + 8);
+    const data = buf.subarray(pos + 8, pos + 8 + len);
+    if (type === 'IDAT') idat.push(data);
+    else if (type === 'tRNS') trns = data;
+    else if (type === 'IEND') break;
+    pos += 12 + len;
+  }
+  const hasAlpha = colorType === 4 || colorType === 6 || trns !== null;
+  if (!hasAlpha) return { ok: true, hasAlpha: false, opaqueCorners: 4 };
+  let raw;
+  try { raw = zlib.inflateSync(Buffer.concat(idat)); } catch (e) { return { ok: false, reason: `PNG image data does not inflate (${e.message})` }; }
+  const bytesPerSample = bitDepth / 8;
+  const bpp = channels * bytesPerSample;
+  const stride = width * bpp;
+  if (raw.length < (stride + 1) * height) return { ok: false, reason: 'PNG image data is truncated' };
+  // Undo the per-row filters (PNG filter types 0 to 4).
+  const out = Buffer.alloc(stride * height);
+  let prev = Buffer.alloc(stride);
+  for (let y = 0; y < height; y++) {
+    const f = raw[y * (stride + 1)];
+    const line = raw.subarray(y * (stride + 1) + 1, (y + 1) * (stride + 1));
+    const cur = out.subarray(y * stride, (y + 1) * stride);
+    for (let i = 0; i < stride; i++) {
+      const a = i >= bpp ? cur[i - bpp] : 0, b = prev[i], c = i >= bpp ? prev[i - bpp] : 0;
+      let v = line[i];
+      if (f === 1) v += a;
+      else if (f === 2) v += b;
+      else if (f === 3) v += (a + b) >> 1;
+      else if (f === 4) { const p = a + b - c, pa = Math.abs(p - a), pb = Math.abs(p - b), pc = Math.abs(p - c); v += (pa <= pb && pa <= pc) ? a : (pb <= pc ? b : c); }
+      else if (f !== 0) return { ok: false, reason: `PNG row ${y} uses unknown filter ${f}` };
+      cur[i] = v & 0xff;
+    }
+    prev = cur;
+  }
+  const alphaAt = (x, y) => {
+    const base = y * stride + x * bpp;
+    if (colorType === 6) return out[base + 3 * bytesPerSample];
+    if (colorType === 4) return out[base + 1 * bytesPerSample];
+    if (colorType === 3) { const idx = out[base]; return trns && idx < trns.length ? trns[idx] : 255; }
+    // Grey or RGB with a tRNS colour key: that one colour is transparent.
+    if (!trns) return 255;
+    if (colorType === 0) return out[base] === trns[1] ? 0 : 255;
+    return (out[base] === trns[1] && out[base + bytesPerSample] === trns[3] && out[base + 2 * bytesPerSample] === trns[5]) ? 0 : 255;
+  };
+  const corners = [[0, 0], [width - 1, 0], [0, height - 1], [width - 1, height - 1]];
+  const opaqueCorners = corners.filter(([x, y]) => alphaAt(x, y) === 255).length;
+  return { ok: true, hasAlpha: true, opaqueCorners };
+}
+
 export function validateRepo(rootDir) {
   const errors = [];
   const devices = [];
@@ -94,6 +164,12 @@ export function validateRepo(rootDir) {
     if (!info.ok) errors.push(`icons/${iconName}: ${info.reason}`);
     else if (info.width !== 128 || info.height !== 128) errors.push(`icons/${iconName}: must be 128x128 (got ${info.width}x${info.height})`);
     if (buf.length > MAX_ICON_BYTES) errors.push(`icons/${iconName}: ${buf.length} bytes exceeds ${MAX_ICON_BYTES}`);
+    if (info.ok) {
+      const t = pngTransparency(buf);
+      if (!t.ok) errors.push(`icons/${iconName}: ${t.reason}`);
+      else if (!t.hasAlpha) errors.push(`icons/${iconName}: has no alpha channel; export as PNG with a transparent background`);
+      else if (t.opaqueCorners === 4) errors.push(`icons/${iconName}: background is not transparent (all four corners are opaque); cut the device out and export with a transparent background`);
+    }
   }
   for (const f of fs.existsSync(iconDir) ? fs.readdirSync(iconDir) : []) {
     if (!referencedIcons.has(f)) errors.push(`icons/${f}: orphan (no device references it)`);

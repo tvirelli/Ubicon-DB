@@ -57,8 +57,11 @@ Five minutes, four steps:
    have a square viewBox.
 
 3. **Before opening a pull request**, run `npm test && npm run validate`
-   locally and make sure both pass. Do not edit `index.json`; it is
-   regenerated automatically on merge.
+   locally and make sure both pass. The validator checks the record, the
+   128x128 size, the 50 KB cap, and that the PNG has an alpha channel with
+   a transparent background (an icon whose four corners are opaque is
+   rejected). Do not edit `index.json`; it is regenerated automatically on
+   merge.
 
 4. **Open a pull request.** Automated checks cover everything mechanical; review is only
    about icon quality and appropriateness.
