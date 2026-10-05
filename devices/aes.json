@@ -15,5 +15,41 @@
   ],
   "icon": "icons/aes-opyn-ip-ibk.png",
   "contributor": "Tony Virelli"
+ },
+ {
+  "id": "aes-opyn-mon-us",
+  "name": "AES OPYN Monitor 7\"",
+  "vendor": "AES",
+  "model": "OPYN-MON-US",
+  "category": "doorbell",
+  "keywords": [
+   "opyn",
+   "indoor monitor",
+   "intercom monitor",
+   "video intercom",
+   "touchscreen",
+   "7 inch",
+   "access control"
+  ],
+  "icon": "icons/aes-opyn-mon-us.png",
+  "contributor": "Tony Virelli"
+ },
+ {
+  "id": "aes-opyn-mon-10-us",
+  "name": "AES OPYN Monitor 10\"",
+  "vendor": "AES",
+  "model": "OPYN-MON-10-US",
+  "category": "doorbell",
+  "keywords": [
+   "opyn",
+   "indoor monitor",
+   "intercom monitor",
+   "video intercom",
+   "touchscreen",
+   "10 inch",
+   "access control"
+  ],
+  "icon": "icons/aes-opyn-mon-10-us.png",
+  "contributor": "Tony Virelli"
  }
 ]
